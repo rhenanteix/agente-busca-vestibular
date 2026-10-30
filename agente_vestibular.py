@@ -14,10 +14,19 @@ import re
 import sys
 from datetime import datetime
 
-import anthropic
+# Escolha o provedor: PROVIDER=claude (padrão) ou PROVIDER=openai
+PROVIDER = os.environ.get("PROVIDER", "claude").lower()
+CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
+OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4.1")  # ajuste para o modelo que preferir
 
-MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
-client = anthropic.Anthropic()  # lê ANTHROPIC_API_KEY do ambiente
+if PROVIDER == "claude":
+    import anthropic
+    client = anthropic.Anthropic()  # lê ANTHROPIC_API_KEY
+elif PROVIDER == "openai":
+    from openai import OpenAI
+    client = OpenAI()  # lê OPENAI_API_KEY
+else:
+    sys.exit("PROVIDER deve ser 'claude' ou 'openai'")
 
 # Cidades do Vale do Ribeira (SP) usadas na descoberta de novas instituições
 CIDADES = [
@@ -45,13 +54,21 @@ def extrair_json(texto: str):
 
 
 def perguntar(prompt: str, max_searches: int = 6):
-    resp = client.messages.create(
-        model=MODEL,
-        max_tokens=4000,
-        tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": max_searches}],
-        messages=[{"role": "user", "content": prompt}],
-    )
-    texto = "".join(b.text for b in resp.content if b.type == "text")
+    if PROVIDER == "claude":
+        resp = client.messages.create(
+            model=CLAUDE_MODEL,
+            max_tokens=4000,
+            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": max_searches}],
+            messages=[{"role": "user", "content": prompt}],
+        )
+        texto = "".join(b.text for b in resp.content if b.type == "text")
+    else:  # openai (Responses API com busca na web)
+        resp = client.responses.create(
+            model=OPENAI_MODEL,
+            tools=[{"type": "web_search"}],
+            input=prompt,
+        )
+        texto = resp.output_text
     return extrair_json(texto)
 
 

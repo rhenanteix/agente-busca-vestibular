@@ -16,10 +16,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install anthropic
+      - run: pip install anthropic openai
       - run: python agente_vestibular.py
         env:
+          PROVIDER: claude   # troque para openai para usar o ChatGPT
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - name: Salvar resultados
         run: |
           git config user.name "agente-vestibular"

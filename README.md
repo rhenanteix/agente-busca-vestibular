@@ -22,6 +22,26 @@ export ANTHROPIC_API_KEY=sk-ant-...
 python agente_vestibular.py
 ```
 
+## Alternar entre Claude e OpenAI (ChatGPT)
+
+Use a variável `PROVIDER`:
+
+```bash
+pip install anthropic openai
+
+# Claude (padrão)
+export ANTHROPIC_API_KEY=...
+PROVIDER=claude python3 agente_vestibular.py
+
+# OpenAI
+export OPENAI_API_KEY=...
+PROVIDER=openai python3 agente_vestibular.py
+```
+
+O modelo da OpenAI é definido por `OPENAI_MODEL` (padrão `gpt-4.1`) e o do Claude por
+`CLAUDE_MODEL`. No GitHub Actions, cadastre também o secret `OPENAI_API_KEY` e troque
+`PROVIDER` no arquivo `mensal.yml`.
+
 ## Ajustes
 
 - Edite `INSTITUICOES` para fixar as faculdades que você quer acompanhar.
