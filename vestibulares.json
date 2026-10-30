@@ -1,0 +1,21 @@
+{
+  "atualizado_em": "30/10/2026 12:16",
+  "itens": [
+    {
+      "instituicao": "UNESP - Campus Experimental de Registro",
+      "observacoes": "falha na busca: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYeDJVox3FE6xJsWhRnX'}"
+    },
+    {
+      "instituicao": "IFSP - Campus Registro",
+      "observacoes": "falha na busca: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYeDKtR4oj3Z5qwpn9yx'}"
+    },
+    {
+      "instituicao": "IFSP - Campus Cajati",
+      "observacoes": "falha na busca: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYeDMa7bLqgNmJqcFSuT'}"
+    },
+    {
+      "instituicao": "UNIVESP - polos do Vale do Ribeira",
+      "observacoes": "falha na busca: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYeDPMGfXUc3fSV6NYoq'}"
+    }
+  ]
+}

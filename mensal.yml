@@ -1,0 +1,29 @@
+name: Atualizar vestibulares
+
+on:
+  schedule:
+    - cron: "0 11 1 * *"   # todo dia 1º, 08h no horário de Brasília
+  workflow_dispatch:        # permite rodar manualmente
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install anthropic
+      - run: python agente_vestibular.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Salvar resultados
+        run: |
+          git config user.name "agente-vestibular"
+          git config user.email "bot@users.noreply.github.com"
+          git add vestibulares.json vestibulares.csv index.html
+          git commit -m "Atualização mensal $(date +%F)" || echo "Sem mudanças"
+          git push
