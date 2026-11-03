@@ -1,0 +1,390 @@
+{
+ "_ajuda": "escopo: nacional|estadual|regional|local. categoria: educacao (datas de vestibular/editais) | faculdade (idem + eventos e calendário acadêmico) | local (eventos e agendas). Municípios + modelos geram buscas automáticas no Google News (descoberta de notícias/editais novos). Rode 'python crawler.py --check' para validar as URLs.",
+ "municipios": [
+  "Apiaí",
+  "Barra do Chapéu",
+  "Barra do Turvo",
+  "Cajati",
+  "Cananéia",
+  "Eldorado",
+  "Iguape",
+  "Ilha Comprida",
+  "Iporanga",
+  "Itaóca",
+  "Itapirapuã Paulista",
+  "Itariri",
+  "Jacupiranga",
+  "Juquiá",
+  "Juquitiba",
+  "Miracatu",
+  "Pariquera-Açu",
+  "Pedro de Toledo",
+  "Registro",
+  "Ribeira",
+  "São Lourenço da Serra",
+  "Sete Barras",
+  "Tapiraí"
+ ],
+ "gnews_por_municipio": [
+  {
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "consulta": "{m} SP vestibular OR inscrições OR edital OR \"processo seletivo\" OR isenção"
+  },
+  {
+   "escopo": "local",
+   "categoria": "local",
+   "consulta": "{m} SP evento OR festa OR festival OR programação OR feira"
+  }
+ ],
+ "gnews_gerais": [
+  {
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "consulta": "\"Vale do Ribeira\" vestibular OR faculdade OR inscrições OR edital"
+  },
+  {
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "consulta": "IFSP Registro processo seletivo OR edital OR inscrições"
+  },
+  {
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "consulta": "Unesp Registro vestibular OR evento OR aula inaugural"
+  },
+  {
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "consulta": "UNIVR Registro vestibular OR inscrições OR evento"
+  },
+  {
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "consulta": "Univesp polo Registro OR Iguape OR Cajati vestibular"
+  },
+  {
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "consulta": "Etec Registro OR Iguape OR Cajati OR Jacupiranga OR Pariquera vestibulinho"
+  },
+  {
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "consulta": "Fatec Registro OR \"Vale do Ribeira\" vestibular"
+  },
+  {
+   "escopo": "local",
+   "categoria": "local",
+   "consulta": "\"Vale do Ribeira\" evento OR festival OR festa OR congresso"
+  },
+  {
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "consulta": "Enem 2027 inscrições OR isenção OR edital"
+  },
+  {
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "consulta": "isenção taxa vestibular 2027 OR 2028 São Paulo"
+  },
+  {
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "consulta": "Sisu 2027 OR ProUni 2027 OR Fies 2027 cronograma"
+  },
+  {
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "consulta": "vestibular 2028 Fuvest OR Unicamp OR Unesp datas OR calendário"
+  },
+  {
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "consulta": "Encceja 2026 OR 2027 inscrições OR datas"
+  }
+ ],
+ "fontes": [
+  {
+   "nome": "INEP - ENEM",
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem",
+   "follow_pattern": "gov\\.br/inep/.*(enem|edital|isenc)",
+   "max_follow": 15
+  },
+  {
+   "nome": "INEP - Encceja",
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/encceja"
+  },
+  {
+   "nome": "INEP - Notícias",
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "url": "https://www.gov.br/inep/pt-br/assuntos/noticias",
+   "follow_pattern": "noticias/(enem|encceja|inscric|isenc)",
+   "max_follow": 10
+  },
+  {
+   "nome": "MEC - Notícias",
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
+   "follow_pattern": "noticias/.*(enem|sisu|prouni|fies|inscric|isenc|vestibular)",
+   "max_follow": 10
+  },
+  {
+   "nome": "Portal Único (Sisu/ProUni/Fies)",
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "url": "https://acessounico.mec.gov.br/"
+  },
+  {
+   "nome": "SISU",
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "url": "https://acessounico.mec.gov.br/sisu"
+  },
+  {
+   "nome": "ProUni",
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "url": "https://acessounico.mec.gov.br/prouni"
+  },
+  {
+   "nome": "FIES",
+   "escopo": "nacional",
+   "categoria": "educacao",
+   "url": "https://acessounico.mec.gov.br/fies"
+  },
+  {
+   "nome": "Fuvest (USP)",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.fuvest.br/",
+   "max_follow": 15
+  },
+  {
+   "nome": "Unicamp (Comvest)",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.comvest.unicamp.br/",
+   "max_follow": 15
+  },
+  {
+   "nome": "Unesp / Vunesp",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.vunesp.com.br/",
+   "max_follow": 12
+  },
+  {
+   "nome": "Unesp - Vestibular",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://vestibular.unesp.br/",
+   "max_follow": 12
+  },
+  {
+   "nome": "UFSCar",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.vestibular.ufscar.br/"
+  },
+  {
+   "nome": "Unifesp",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.unifesp.br/vestibular"
+  },
+  {
+   "nome": "Etec - Vestibulinho",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://vestibulinho.etec.sp.gov.br/",
+   "max_follow": 10
+  },
+  {
+   "nome": "Fatec - Vestibular",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.vestibularfatec.com.br/",
+   "max_follow": 10
+  },
+  {
+   "nome": "Centro Paula Souza",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.cps.sp.gov.br/",
+   "max_follow": 10
+  },
+  {
+   "nome": "Univesp",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://univesp.br/vestibular",
+   "max_follow": 10
+  },
+  {
+   "nome": "IFSP",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.ifsp.edu.br/",
+   "follow_pattern": "ifsp\\.edu\\.br/.*(processo-seletivo|ingresso|edital|selecao)",
+   "max_follow": 12
+  },
+  {
+   "nome": "IFSP Campus Registro",
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "url": "https://rgt.ifsp.edu.br/",
+   "max_follow": 20
+  },
+  {
+   "nome": "Unesp Campus Registro",
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "url": "https://registro.unesp.br/",
+   "max_follow": 20
+  },
+  {
+   "nome": "UNIVR - Centro Universitário do Vale do Ribeira",
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "url": "https://portal.unisepe.com.br/univr/",
+   "max_follow": 20,
+   "dominios_extras": [
+    "portal.unisepe.com.br",
+    "unisepe.com.br"
+   ]
+  },
+  {
+   "nome": "Unisepe (editais UNIVR)",
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "url": "https://www.unisepe.com.br/",
+   "max_follow": 20,
+   "dominios_extras": [
+    "portal.unisepe.com.br"
+   ]
+  },
+  {
+   "nome": "Prefeitura de Registro",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.registro.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "registro\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Iguape",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.iguape.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "iguape\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Cananéia",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.cananeia.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "cananeia\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Jacupiranga",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.jacupiranga.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "jacupiranga\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Eldorado",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.eldorado.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "eldorado\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Miracatu",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.miracatu.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "miracatu\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Sete Barras",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.setebarras.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "setebarras\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Ilha Comprida",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.ilhacomprida.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "ilhacomprida\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Cajati",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.cajati.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "cajati\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Pariquera-Açu",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.pariqueraacu.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "pariqueraacu\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Juquiá",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.juquia.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "juquia\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "Prefeitura de Pedro de Toledo",
+   "escopo": "local",
+   "categoria": "local",
+   "url": "https://www.pedrodetoledo.sp.gov.br/",
+   "seguir": false,
+   "follow_pattern": "pedrodetoledo\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
+   "max_follow": 8
+  },
+  {
+   "nome": "EXEMPLO jornal/RSS local (desativado)",
+   "escopo": "local",
+   "categoria": "local",
+   "tipo": "rss",
+   "url": "https://exemplo.com.br/feed",
+   "ativo": false
+  }
+ ]
+}

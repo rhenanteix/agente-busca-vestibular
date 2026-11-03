@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agenda Vale do Ribeira</title>
+<style>
+:root{--bg:#fff;--fg:#1b1b1b;--mut:#6b6b6b;--bd:#dcdcdc;--ac:#0b6e4f;--warn:#b42318;--card:#f5f6f7;--prev:#8a5a00}
+@media(prefers-color-scheme:dark){:root{--bg:#151515;--fg:#ececec;--mut:#9b9b9b;--bd:#333;--ac:#4cc79a;--warn:#ff8a80;--card:#202020;--prev:#e6b450}}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+header,main{max-width:1100px;margin:0 auto;padding:16px}h1{font-size:20px;margin:0 0 4px}.mut{color:var(--mut);font-size:13px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.bar input,.bar select{padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--fg);font:inherit}
+.bar input[type=search]{flex:1;min-width:200px}label{display:flex;align-items:center;gap:4px;font-size:13px}
+.tabs button{padding:6px 12px;border:1px solid var(--bd);background:var(--card);color:var(--fg);border-radius:8px;cursor:pointer;font:inherit}.tabs button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+.wrap{overflow-x:auto}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;border-bottom:1px solid var(--bd);vertical-align:top}th{font-size:12px;color:var(--mut);text-transform:uppercase}
+.b{display:inline-block;padding:1px 7px;border-radius:10px;font-size:12px;border:1px solid var(--bd);white-space:nowrap}.ok{color:var(--ac);border-color:var(--ac)}.auto{color:var(--mut)}.prev{color:var(--prev);border-color:var(--prev)}.urg{color:var(--warn);border-color:var(--warn);font-weight:600}
+a{color:var(--ac)}.dt{white-space:nowrap;font-variant-numeric:tabular-nums}
+</style></head><body>
+<header><h1>Agenda Vale do Ribeira</h1>
+<div class="mut" id="info"></div>
+<div class="mut"><a href="eventos.ics">Baixar calendário (.ics)</a> · <a href="eventos.csv">CSV</a> · <a href="documentos.csv">Editais/links (CSV)</a> · <a href="prazos_proximos.txt">Prazos próximos</a></div></header>
+<main>
+<div class="tabs"><button id="t1" class="on">Datas</button> <button id="t2">Editais e links</button></div>
+<div class="bar" id="f1">
+<input type="search" id="q" placeholder="Buscar (ex.: Registro, isenção, IFSP, Enem)">
+<select id="esc"><option value="">Todos os níveis</option><option>nacional</option><option>estadual</option><option>regional</option><option>local</option></select>
+<select id="tipo"><option value="">Todos os tipos</option><option value="isencao">Isenção</option><option value="inscricao">Inscrição</option><option value="prova">Prova</option><option value="resultado">Resultado</option><option value="matricula">Matrícula</option><option value="edital">Edital</option><option value="academico">Calendário acadêmico</option><option value="evento">Evento</option></select>
+<label><input type="checkbox" id="ver"> só verificados</label></div>
+<div class="bar" id="f2" hidden><input type="search" id="q2" placeholder="Buscar edital ou notícia"></div>
+<div class="wrap"><table id="tb"></table></div>
+</main>
+<script>
+const D=%%DADOS%%;const $=s=>document.querySelector(s);const hoje=new Date(D.hoje+"T00:00:00");
+const dias=d=>Math.round((new Date(d+"T00:00:00")-hoje)/864e5);
+const fmt=d=>d.split("-").reverse().join("/");
+const NOME={isencao:"Isenção",inscricao:"Inscrição",prova:"Prova",resultado:"Resultado",matricula:"Matrícula",edital:"Edital",academico:"Acadêmico",evento:"Evento",noticia:"Notícia",link:"Link"};
+function el(t,txt,cls){const e=document.createElement(t);if(txt!=null)e.textContent=txt;if(cls)e.className=cls;return e}
+function link(txt,u){if(!/^https?:\/\//.test(u||""))return el("span",txt);const a=el("a",txt);a.href=u;a.target="_blank";a.rel="noopener noreferrer";return a}
+function head(tb,cols){const tr=el("tr");cols.forEach(c=>tr.append(el("th",c)));const th=el("thead");th.append(tr);tb.append(th)}
+let aba=1;
+function render(){const tb=$("#tb");tb.replaceChildren();
+ if(aba===1){head(tb,["Data","Instituição","Tipo","Descrição","Status"]);
+  const q=$("#q").value.toLowerCase(),esc=$("#esc").value,tp=$("#tipo").value,v=$("#ver").checked;let n=0;
+  D.eventos.filter(e=>(!esc||e.escopo===esc)&&(!tp||e.tipo===tp)&&(!v||e.verificado)&&(!q||(e.instituicao+" "+e.titulo+" "+e.obs).toLowerCase().includes(q))).forEach(e=>{n++;
+   const tr=el("tr"),d=dias(e.fim),dd=el("td",null,"dt");
+   dd.textContent=e.inicio===e.fim?fmt(e.inicio):fmt(e.inicio)+" → "+fmt(e.fim);
+   const st=el("td"),prev=(e.obs||"").startsWith("PREVISÃO");
+   st.append(el("span",prev?"previsão":e.verificado?"conferido":"automático","b "+(prev?"prev":e.verificado?"ok":"auto")));
+   if(d>=0&&d<=7&&["inscricao","isencao","matricula"].includes(e.tipo))st.append(" ",el("span",d===0?"fecha hoje":"fecha em "+d+"d","b urg"));
+   const ds=el("td");ds.append(link(e.titulo,e.url));if(e.obs){ds.append(el("div",e.obs,"mut"))}
+   tr.append(dd,el("td",e.instituicao),el("td",NOME[e.tipo]||e.tipo),ds,st);tb.append(tr)});
+  $("#info").textContent=n+" datas exibidas · atualizado em "+fmt(D.hoje)+" · datas automáticas devem ser conferidas no edital oficial"}
+ else{head(tb,["Fonte","Tipo","Título","Visto em"]);const q=$("#q2").value.toLowerCase();let n=0;
+  D.docs.filter(d=>!q||(d.instituicao+" "+d.titulo).toLowerCase().includes(q)).slice(0,600).forEach(d=>{n++;const tr=el("tr");
+   const t=el("td");t.append(link(d.titulo,d.url));tr.append(el("td",d.instituicao),el("td",NOME[d.tipo]||d.tipo),t,el("td",(d.primeira_vez||"").slice(0,10),"dt"));tb.append(tr)});
+  $("#info").textContent=n+" documentos/links (editais, PDFs, notícias)"}}
+function aba_(n){aba=n;$("#t1").classList.toggle("on",n===1);$("#t2").classList.toggle("on",n===2);$("#f1").hidden=n!==1;$("#f2").hidden=n!==2;render()}
+$("#t1").onclick=()=>aba_(1);$("#t2").onclick=()=>aba_(2);
+["#q","#esc","#tipo","#ver","#q2"].forEach(s=>$(s).addEventListener("input",render));render();
+</script></body></html>

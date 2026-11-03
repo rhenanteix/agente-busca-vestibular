@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Agenda Vale do Ribeira//PT
+X-WR-CALNAME:Agenda Vale do Ribeira
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VEVENT
+UID:9c7dbb48f5810269c287@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:[Etec - Vestibulinho] Inscricao: Etec 1º sem/2027 - Fim das inscrições (até 20h)
+DESCRIPTION:Etec 1º sem/2027 - Fim das inscrições (até 20h) | Taxa R$ 50 | https://vestibulinho.etec.sp.gov.br
+END:VEVENT
+BEGIN:VEVENT
+UID:25add9b31f384fadb674@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:[INEP - ENEM] Prova: ENEM 2026 - 1º dia de provas
+DESCRIPTION:ENEM 2026 - 1º dia de provas | Portões fecham 13h (Brasília)\; provas 13h30 | https://www.gov.br/inep
+END:VEVENT
+BEGIN:VEVENT
+UID:a79f7bd6c3ea9db30e9d@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:[INEP - ENEM] Prova: ENEM 2026 - 2º dia de provas
+DESCRIPTION:ENEM 2026 - 2º dia de provas | https://www.gov.br/inep
+END:VEVENT
+BEGIN:VEVENT
+UID:98383c2b5930a2262584@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261201
+SUMMARY:[INEP - ENEM] Resultado: ENEM 2026 - Gabaritos (até o 10º dia útil após 15/11)
+DESCRIPTION:ENEM 2026 - Gabaritos (até o 10º dia útil após 15/11) | PREVISÃO calculada: ~30/11 considerando o feriado de 20/11 | https://www.gov.br/inep
+END:VEVENT
+BEGIN:VEVENT
+UID:54e5cd5d00a84c975497@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:[IFSP] Prova: IFSP 2027 (técnicos integrados) - Prova
+DESCRIPTION:IFSP 2027 (técnicos integrados) - Prova | https://www.ifsp.edu.br
+END:VEVENT
+BEGIN:VEVENT
+UID:be0fa1cdd6c0194d8218@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:[Unesp / Vunesp] Prova: Unesp 2027 - 1ª fase
+DESCRIPTION:Unesp 2027 - 1ª fase | Mesma data da prova do IFSP | https://www.vunesp.com.br
+END:VEVENT
+BEGIN:VEVENT
+UID:b8b249a228e11ed05554@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:[Fuvest (USP)] Resultado: Fuvest 2027 - Convocados para a 2ª fase e locais
+DESCRIPTION:Fuvest 2027 - Convocados para a 2ª fase e locais | https://www.fuvest.br
+END:VEVENT
+BEGIN:VEVENT
+UID:c334bc356b3eb115d5ec@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:[Etec - Vestibulinho] Resultado: Etec 1º sem/2027 - Divulgação dos locais de prova (15h)
+DESCRIPTION:Etec 1º sem/2027 - Divulgação dos locais de prova (15h) | https://vestibulinho.etec.sp.gov.br
+END:VEVENT
+BEGIN:VEVENT
+UID:e263ca4d2e7a842e0590@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:[Etec - Vestibulinho] Prova: Etec 1º sem/2027 - Prova (13h30)
+DESCRIPTION:Etec 1º sem/2027 - Prova (13h30) | https://vestibulinho.etec.sp.gov.br
+END:VEVENT
+BEGIN:VEVENT
+UID:de74601ac8f9c6be4c8e@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261208
+SUMMARY:[Fuvest (USP)] Prova: Fuvest 2027 - 2ª fase
+DESCRIPTION:Fuvest 2027 - 2ª fase | Antecipada de 13-14/12 | https://www.fuvest.br
+END:VEVENT
+BEGIN:VEVENT
+UID:eeea5da97a80d61df1ef@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261212
+SUMMARY:[Fuvest (USP)] Prova: Fuvest 2027 - Provas de competências específicas
+DESCRIPTION:Fuvest 2027 - Provas de competências específicas | Música\, Artes Cênicas e Artes Visuais | https://www.fuvest.br
+END:VEVENT
+BEGIN:VEVENT
+UID:9c5df0f65475fa70e797@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261215
+SUMMARY:[Unesp / Vunesp] Prova: Unesp 2027 - 2ª fase
+DESCRIPTION:Unesp 2027 - 2ª fase | https://www.vunesp.com.br
+END:VEVENT
+BEGIN:VEVENT
+UID:5be34f578f535ce9d70b@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:[INEP - ENEM] Resultado: ENEM 2026 - Resultados individuais
+DESCRIPTION:ENEM 2026 - Resultados individuais | PREVISÃO: INEP ainda não fixou a data | https://www.gov.br/inep
+END:VEVENT
+BEGIN:VEVENT
+UID:716e6af310be241b5ada@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:[SISU] Inscricao: Sisu 2027 - Inscrições
+DESCRIPTION:Sisu 2027 - Inscrições | PREVISÃO: MEC ainda não publicou o cronograma. ProUni 2027.1 e Fies 2027.1 vêm em seguida\, sem datas | https://acessounico.mec.gov.br/sisu
+END:VEVENT
+BEGIN:VEVENT
+UID:dd1a3901941ee5d67947@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:[Fuvest (USP)] Resultado: Fuvest 2027 - 1ª chamada
+DESCRIPTION:Fuvest 2027 - 1ª chamada | https://www.fuvest.br
+END:VEVENT
+BEGIN:VEVENT
+UID:99f790d19020bc892f33@agenda-vale
+DTSTAMP:20261103T021254Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270701
+SUMMARY:[INEP - ENEM] Inscricao: ENEM 2027 - Inscrições (início)
+DESCRIPTION:ENEM 2027 - Inscrições (início) | PREVISÃO por histórico: edital de 2026 saiu em 22/05 e inscrições abriram em 25/05. Sem edital 2027 ainda | https://www.gov.br/inep
+END:VEVENT
+END:VCALENDAR
