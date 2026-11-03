@@ -1,5 +1,5 @@
 {
- "_ajuda": "escopo: nacional|estadual|regional|local. categoria: educacao (datas de vestibular/editais) | faculdade (idem + eventos e calendário acadêmico) | local (eventos e agendas). Municípios + modelos geram buscas automáticas no Google News (descoberta de notícias/editais novos). Rode 'python crawler.py --check' para validar as URLs.",
+ "_ajuda": "escopo: nacional | regional (Vale do Ribeira). categoria: educacao (datas de vestibular/editais) | faculdade (idem + eventos e calendário acadêmico). cidade: cidade fixa da fonte. Rode 'python3 crawler.py --check' para validar URLs.",
  "municipios": [
   "Apiaí",
   "Barra do Chapéu",
@@ -29,54 +29,49 @@
   {
    "escopo": "regional",
    "categoria": "faculdade",
-   "consulta": "{m} SP vestibular OR inscrições OR edital OR \"processo seletivo\" OR isenção"
-  },
-  {
-   "escopo": "local",
-   "categoria": "local",
-   "consulta": "{m} SP evento OR festa OR festival OR programação OR feira"
+   "consulta": "{m} SP vestibular OR faculdade OR universitário OR \"transporte universitário\" OR \"bolsa de estudo\" OR isenção OR enem"
   }
  ],
  "gnews_gerais": [
   {
    "escopo": "regional",
    "categoria": "faculdade",
-   "consulta": "\"Vale do Ribeira\" vestibular OR faculdade OR inscrições OR edital"
+   "consulta": "\"Vale do Ribeira\" vestibular OR faculdade OR universidade OR inscrições OR edital"
   },
   {
    "escopo": "regional",
    "categoria": "faculdade",
-   "consulta": "IFSP Registro processo seletivo OR edital OR inscrições"
+   "consulta": "IFSP Registro processo seletivo OR edital OR inscrições OR evento"
   },
   {
    "escopo": "regional",
    "categoria": "faculdade",
-   "consulta": "Unesp Registro vestibular OR evento OR aula inaugural"
+   "consulta": "Unesp Registro vestibular OR evento OR aula inaugural OR semana"
   },
   {
    "escopo": "regional",
    "categoria": "faculdade",
-   "consulta": "UNIVR Registro vestibular OR inscrições OR evento"
+   "consulta": "UNIVR Registro vestibular OR inscrições OR evento OR processo seletivo"
   },
   {
    "escopo": "regional",
    "categoria": "faculdade",
-   "consulta": "Univesp polo Registro OR Iguape OR Cajati vestibular"
+   "consulta": "Univesp polo Registro OR Iguape OR Cajati OR Pariquera vestibular"
   },
   {
    "escopo": "regional",
    "categoria": "faculdade",
-   "consulta": "Etec Registro OR Iguape OR Cajati OR Jacupiranga OR Pariquera vestibulinho"
+   "consulta": "Etec OR Fatec Registro OR Iguape OR Cajati OR Jacupiranga OR Pariquera vestibulinho OR vestibular"
   },
   {
    "escopo": "regional",
    "categoria": "faculdade",
-   "consulta": "Fatec Registro OR \"Vale do Ribeira\" vestibular"
+   "consulta": "\"transporte universitário\" Registro OR Iguape OR Cajati OR Pariquera-Açu OR Jacupiranga OR Eldorado"
   },
   {
-   "escopo": "local",
-   "categoria": "local",
-   "consulta": "\"Vale do Ribeira\" evento OR festival OR festa OR congresso"
+   "escopo": "regional",
+   "categoria": "faculdade",
+   "consulta": "bolsa universitária OR \"rota universitária\" \"Vale do Ribeira\""
   },
   {
    "escopo": "nacional",
@@ -86,17 +81,7 @@
   {
    "escopo": "nacional",
    "categoria": "educacao",
-   "consulta": "isenção taxa vestibular 2027 OR 2028 São Paulo"
-  },
-  {
-   "escopo": "nacional",
-   "categoria": "educacao",
    "consulta": "Sisu 2027 OR ProUni 2027 OR Fies 2027 cronograma"
-  },
-  {
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "consulta": "vestibular 2028 Fuvest OR Unicamp OR Unesp datas OR calendário"
   },
   {
    "escopo": "nacional",
@@ -132,7 +117,7 @@
    "escopo": "nacional",
    "categoria": "educacao",
    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
-   "follow_pattern": "noticias/.*(enem|sisu|prouni|fies|inscric|isenc|vestibular)",
+   "follow_pattern": "noticias/.*(enem|sisu|prouni|fies|inscric|isenc)",
    "max_follow": 10
   },
   {
@@ -160,93 +145,38 @@
    "url": "https://acessounico.mec.gov.br/fies"
   },
   {
-   "nome": "Fuvest (USP)",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://www.fuvest.br/",
-   "max_follow": 15
-  },
-  {
-   "nome": "Unicamp (Comvest)",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://www.comvest.unicamp.br/",
-   "max_follow": 15
-  },
-  {
-   "nome": "Unesp / Vunesp",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://www.vunesp.com.br/",
-   "max_follow": 12
-  },
-  {
-   "nome": "Unesp - Vestibular",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://vestibular.unesp.br/",
-   "max_follow": 12
-  },
-  {
-   "nome": "UFSCar",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://www.vestibular.ufscar.br/"
-  },
-  {
-   "nome": "Unifesp",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://www.unifesp.br/vestibular"
-  },
-  {
-   "nome": "Etec - Vestibulinho",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://vestibulinho.etec.sp.gov.br/",
-   "max_follow": 10
-  },
-  {
-   "nome": "Fatec - Vestibular",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://www.vestibularfatec.com.br/",
-   "max_follow": 10
-  },
-  {
-   "nome": "Centro Paula Souza",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://www.cps.sp.gov.br/",
-   "max_follow": 10
-  },
-  {
-   "nome": "Univesp",
-   "escopo": "estadual",
-   "categoria": "educacao",
-   "url": "https://univesp.br/vestibular",
-   "max_follow": 10
-  },
-  {
    "nome": "IFSP",
-   "escopo": "estadual",
+   "escopo": "regional",
    "categoria": "educacao",
    "url": "https://www.ifsp.edu.br/",
+   "cidade": "Registro",
    "follow_pattern": "ifsp\\.edu\\.br/.*(processo-seletivo|ingresso|edital|selecao)",
-   "max_follow": 12
+   "max_follow": 12,
+   "_nota": "Processo seletivo do IFSP (o Campus Registro participa)"
   },
   {
    "nome": "IFSP Campus Registro",
    "escopo": "regional",
    "categoria": "faculdade",
    "url": "https://rgt.ifsp.edu.br/",
+   "cidade": "Registro",
    "max_follow": 20
+  },
+  {
+   "nome": "Unesp / Vunesp",
+   "escopo": "regional",
+   "categoria": "educacao",
+   "url": "https://www.vunesp.com.br/",
+   "cidade": "Registro",
+   "max_follow": 12,
+   "_nota": "Vestibular Unesp (Câmpus Registro participa)"
   },
   {
    "nome": "Unesp Campus Registro",
    "escopo": "regional",
    "categoria": "faculdade",
    "url": "https://registro.unesp.br/",
+   "cidade": "Registro",
    "max_follow": 20
   },
   {
@@ -254,137 +184,227 @@
    "escopo": "regional",
    "categoria": "faculdade",
    "url": "https://portal.unisepe.com.br/univr/",
-   "max_follow": 20,
+   "cidade": "Registro",
+   "max_follow": 25,
    "dominios_extras": [
     "portal.unisepe.com.br",
     "unisepe.com.br"
    ]
   },
   {
-   "nome": "Unisepe (editais UNIVR)",
+   "nome": "UNIVR - Centro Universitário do Vale do Ribeira",
    "escopo": "regional",
-   "categoria": "faculdade",
-   "url": "https://www.unisepe.com.br/",
-   "max_follow": 20,
-   "dominios_extras": [
-    "portal.unisepe.com.br"
-   ]
+   "categoria": "educacao",
+   "url": "",
+   "cidade": "Registro",
+   "modelo_url": "https://portal.unisepe.com.br/unisepe/lp/assets/editais/{cod}_{ano}{sem}.pdf",
+   "codigos": [
+    "E0001",
+    "E0002",
+    "E0003",
+    "E0004"
+   ],
+   "_nota": "Tenta os editais por nome de arquivo (E0003_20271.pdf = 2027/1). Se não existir, ignora"
   },
   {
    "nome": "Prefeitura de Registro",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.registro.sp.gov.br/",
+   "cidade": "Registro",
    "seguir": false,
-   "follow_pattern": "registro\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "registro\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Iguape",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.iguape.sp.gov.br/",
+   "cidade": "Iguape",
    "seguir": false,
-   "follow_pattern": "iguape\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "iguape\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Cananéia",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.cananeia.sp.gov.br/",
+   "cidade": "Cananéia",
    "seguir": false,
-   "follow_pattern": "cananeia\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "cananeia\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Jacupiranga",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.jacupiranga.sp.gov.br/",
+   "cidade": "Jacupiranga",
    "seguir": false,
-   "follow_pattern": "jacupiranga\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "jacupiranga\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Eldorado",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.eldorado.sp.gov.br/",
+   "cidade": "Eldorado",
    "seguir": false,
-   "follow_pattern": "eldorado\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "eldorado\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Miracatu",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.miracatu.sp.gov.br/",
+   "cidade": "Miracatu",
    "seguir": false,
-   "follow_pattern": "miracatu\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "miracatu\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Sete Barras",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.setebarras.sp.gov.br/",
+   "cidade": "Sete Barras",
    "seguir": false,
-   "follow_pattern": "setebarras\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "setebarras\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Ilha Comprida",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.ilhacomprida.sp.gov.br/",
+   "cidade": "Ilha Comprida",
    "seguir": false,
-   "follow_pattern": "ilhacomprida\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "ilhacomprida\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Cajati",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.cajati.sp.gov.br/",
+   "cidade": "Cajati",
    "seguir": false,
-   "follow_pattern": "cajati\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "cajati\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Pariquera-Açu",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.pariqueraacu.sp.gov.br/",
+   "cidade": "Pariquera-Açu",
    "seguir": false,
-   "follow_pattern": "pariqueraacu\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "pariqueraacu\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Juquiá",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.juquia.sp.gov.br/",
+   "cidade": "Juquiá",
    "seguir": false,
-   "follow_pattern": "juquia\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "juquia\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
    "nome": "Prefeitura de Pedro de Toledo",
-   "escopo": "local",
-   "categoria": "local",
+   "escopo": "regional",
+   "categoria": "educacao",
    "url": "https://www.pedrodetoledo.sp.gov.br/",
+   "cidade": "Pedro de Toledo",
    "seguir": false,
-   "follow_pattern": "pedrodetoledo\\.sp\\.gov\\.br/.*(noticia|evento|agenda|concurso|processo)",
-   "max_follow": 8
+   "exigir": "(universit|faculdade|vestibular|enem|bolsa de estudo|bolsa universit|ensino superior|isenc|transporte universit)",
+   "follow_pattern": "pedrodetoledo\\.sp\\.gov\\.br/.*(noticia|agenda|universit|bolsa|enem|vestibular)",
+   "max_follow": 8,
+   "_nota": "Só registra datas que citem faculdade/vestibular/ENEM/bolsa/transporte universitário"
   },
   {
-   "nome": "EXEMPLO jornal/RSS local (desativado)",
-   "escopo": "local",
-   "categoria": "local",
-   "tipo": "rss",
-   "url": "https://exemplo.com.br/feed",
-   "ativo": false
+   "nome": "Fuvest (USP)",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.fuvest.br/",
+   "ativo": false,
+   "_nota": "Fora do Vale do Ribeira: desativada. Ative se confirmar que atende a região"
+  },
+  {
+   "nome": "Unicamp (Comvest)",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.comvest.unicamp.br/",
+   "ativo": false,
+   "_nota": "Fora do Vale do Ribeira: desativada. Ative se confirmar que atende a região"
+  },
+  {
+   "nome": "UFSCar",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.vestibular.ufscar.br/",
+   "ativo": false,
+   "_nota": "Fora do Vale do Ribeira: desativada. Ative se confirmar que atende a região"
+  },
+  {
+   "nome": "Unifesp",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.unifesp.br/vestibular",
+   "ativo": false,
+   "_nota": "Fora do Vale do Ribeira: desativada. Ative se confirmar que atende a região"
+  },
+  {
+   "nome": "Etec - Vestibulinho",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://vestibulinho.etec.sp.gov.br/",
+   "ativo": false,
+   "_nota": "Fora do Vale do Ribeira: desativada. Ative se confirmar que atende a região"
+  },
+  {
+   "nome": "Fatec - Vestibular",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://www.vestibularfatec.com.br/",
+   "ativo": false,
+   "_nota": "Fora do Vale do Ribeira: desativada. Ative se confirmar que atende a região"
+  },
+  {
+   "nome": "Univesp",
+   "escopo": "estadual",
+   "categoria": "educacao",
+   "url": "https://univesp.br/vestibular",
+   "ativo": false,
+   "_nota": "Fora do Vale do Ribeira: desativada. Ative se confirmar que atende a região"
   }
  ]
 }

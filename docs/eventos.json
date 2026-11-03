@@ -1,16 +1,5 @@
 [
   {
-    "escopo": "estadual",
-    "instituicao": "Etec - Vestibulinho",
-    "tipo": "inscricao",
-    "titulo": "Etec 1º sem/2027 - Fim das inscrições (até 20h)",
-    "inicio": "2026-11-03",
-    "fim": "2026-11-03",
-    "url": "https://vestibulinho.etec.sp.gov.br",
-    "verificado": 1,
-    "obs": "Taxa R$ 50"
-  },
-  {
     "escopo": "nacional",
     "instituicao": "INEP - ENEM",
     "tipo": "prova",
@@ -19,7 +8,8 @@
     "fim": "2026-11-08",
     "url": "https://www.gov.br/inep",
     "verificado": 1,
-    "obs": "Portões fecham 13h (Brasília); provas 13h30"
+    "obs": "Portões fecham 13h (Brasília); provas 13h30",
+    "cidade": "Todo o Brasil"
   },
   {
     "escopo": "nacional",
@@ -30,7 +20,8 @@
     "fim": "2026-11-15",
     "url": "https://www.gov.br/inep",
     "verificado": 1,
-    "obs": ""
+    "obs": "",
+    "cidade": "Todo o Brasil"
   },
   {
     "escopo": "nacional",
@@ -41,95 +32,44 @@
     "fim": "2026-11-30",
     "url": "https://www.gov.br/inep",
     "verificado": 0,
-    "obs": "PREVISÃO calculada: ~30/11 considerando o feriado de 20/11"
+    "obs": "PREVISÃO calculada: ~30/11 considerando o feriado de 20/11",
+    "cidade": "Todo o Brasil"
   },
   {
-    "escopo": "estadual",
+    "escopo": "regional",
     "instituicao": "IFSP",
     "tipo": "prova",
-    "titulo": "IFSP 2027 (técnicos integrados) - Prova",
+    "titulo": "IFSP 2027 (técnicos integrados, Campus Registro) - Prova",
     "inicio": "2026-11-22",
     "fim": "2026-11-22",
     "url": "https://www.ifsp.edu.br",
     "verificado": 1,
-    "obs": ""
+    "obs": "",
+    "cidade": "Registro"
   },
   {
-    "escopo": "estadual",
+    "escopo": "regional",
     "instituicao": "Unesp / Vunesp",
     "tipo": "prova",
-    "titulo": "Unesp 2027 - 1ª fase",
+    "titulo": "Vestibular Unesp 2027 (inclui Câmpus Registro) - 1ª fase",
     "inicio": "2026-11-22",
     "fim": "2026-11-22",
     "url": "https://www.vunesp.com.br",
     "verificado": 1,
-    "obs": "Mesma data da prova do IFSP"
+    "obs": "Mesma data da prova do IFSP",
+    "cidade": "Registro"
   },
   {
-    "escopo": "estadual",
-    "instituicao": "Fuvest (USP)",
-    "tipo": "resultado",
-    "titulo": "Fuvest 2027 - Convocados para a 2ª fase e locais",
-    "inicio": "2026-11-23",
-    "fim": "2026-11-23",
-    "url": "https://www.fuvest.br",
-    "verificado": 1,
-    "obs": ""
-  },
-  {
-    "escopo": "estadual",
-    "instituicao": "Etec - Vestibulinho",
-    "tipo": "resultado",
-    "titulo": "Etec 1º sem/2027 - Divulgação dos locais de prova (15h)",
-    "inicio": "2026-12-02",
-    "fim": "2026-12-02",
-    "url": "https://vestibulinho.etec.sp.gov.br",
-    "verificado": 1,
-    "obs": ""
-  },
-  {
-    "escopo": "estadual",
-    "instituicao": "Etec - Vestibulinho",
-    "tipo": "prova",
-    "titulo": "Etec 1º sem/2027 - Prova (13h30)",
-    "inicio": "2026-12-06",
-    "fim": "2026-12-06",
-    "url": "https://vestibulinho.etec.sp.gov.br",
-    "verificado": 1,
-    "obs": ""
-  },
-  {
-    "escopo": "estadual",
-    "instituicao": "Fuvest (USP)",
-    "tipo": "prova",
-    "titulo": "Fuvest 2027 - 2ª fase",
-    "inicio": "2026-12-06",
-    "fim": "2026-12-07",
-    "url": "https://www.fuvest.br",
-    "verificado": 1,
-    "obs": "Antecipada de 13-14/12"
-  },
-  {
-    "escopo": "estadual",
-    "instituicao": "Fuvest (USP)",
-    "tipo": "prova",
-    "titulo": "Fuvest 2027 - Provas de competências específicas",
-    "inicio": "2026-12-08",
-    "fim": "2026-12-11",
-    "url": "https://www.fuvest.br",
-    "verificado": 1,
-    "obs": "Música, Artes Cênicas e Artes Visuais"
-  },
-  {
-    "escopo": "estadual",
+    "escopo": "regional",
     "instituicao": "Unesp / Vunesp",
     "tipo": "prova",
-    "titulo": "Unesp 2027 - 2ª fase",
+    "titulo": "Vestibular Unesp 2027 (inclui Câmpus Registro) - 2ª fase",
     "inicio": "2026-12-13",
     "fim": "2026-12-14",
     "url": "https://www.vunesp.com.br",
     "verificado": 1,
-    "obs": ""
+    "obs": "",
+    "cidade": "Registro"
   },
   {
     "escopo": "nacional",
@@ -140,7 +80,8 @@
     "fim": "2027-01-31",
     "url": "https://www.gov.br/inep",
     "verificado": 0,
-    "obs": "PREVISÃO: INEP ainda não fixou a data"
+    "obs": "PREVISÃO: INEP ainda não fixou a data",
+    "cidade": "Todo o Brasil"
   },
   {
     "escopo": "nacional",
@@ -151,18 +92,8 @@
     "fim": "2027-01-31",
     "url": "https://acessounico.mec.gov.br/sisu",
     "verificado": 0,
-    "obs": "PREVISÃO: MEC ainda não publicou o cronograma. ProUni 2027.1 e Fies 2027.1 vêm em seguida, sem datas"
-  },
-  {
-    "escopo": "estadual",
-    "instituicao": "Fuvest (USP)",
-    "tipo": "resultado",
-    "titulo": "Fuvest 2027 - 1ª chamada",
-    "inicio": "2027-01-26",
-    "fim": "2027-01-26",
-    "url": "https://www.fuvest.br",
-    "verificado": 1,
-    "obs": ""
+    "obs": "PREVISÃO: MEC ainda não publicou o cronograma. ProUni 2027.1 e Fies 2027.1 vêm em seguida, sem datas",
+    "cidade": "Todo o Brasil"
   },
   {
     "escopo": "nacional",
@@ -173,6 +104,7 @@
     "fim": "2027-06-30",
     "url": "https://www.gov.br/inep",
     "verificado": 0,
-    "obs": "PREVISÃO por histórico: edital de 2026 saiu em 22/05 e inscrições abriram em 25/05. Sem edital 2027 ainda"
+    "obs": "PREVISÃO por histórico: edital de 2026 saiu em 22/05 e inscrições abriram em 25/05. Ainda sem edital 2027",
+    "cidade": "Todo o Brasil"
   }
 ]

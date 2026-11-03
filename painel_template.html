@@ -20,7 +20,7 @@ a{color:var(--ac)}.dt{white-space:nowrap;font-variant-numeric:tabular-nums}
 <div class="tabs"><button id="t1" class="on">Datas</button> <button id="t2">Editais e links</button></div>
 <div class="bar" id="f1">
 <input type="search" id="q" placeholder="Buscar (ex.: Registro, isenção, IFSP, Enem)">
-<select id="esc"><option value="">Todos os níveis</option><option>nacional</option><option>estadual</option><option>regional</option><option>local</option></select>
+<select id="esc"><option value="">Todos os níveis</option><option value="nacional">Nacional</option><option value="regional">Vale do Ribeira</option></select>
 <select id="tipo"><option value="">Todos os tipos</option><option value="isencao">Isenção</option><option value="inscricao">Inscrição</option><option value="prova">Prova</option><option value="resultado">Resultado</option><option value="matricula">Matrícula</option><option value="edital">Edital</option><option value="academico">Calendário acadêmico</option><option value="evento">Evento</option></select>
 <label><input type="checkbox" id="ver"> só verificados</label></div>
 <div class="bar" id="f2" hidden><input type="search" id="q2" placeholder="Buscar edital ou notícia"></div>
@@ -36,7 +36,7 @@ function link(txt,u){if(!/^https?:\/\//.test(u||""))return el("span",txt);const 
 function head(tb,cols){const tr=el("tr");cols.forEach(c=>tr.append(el("th",c)));const th=el("thead");th.append(tr);tb.append(th)}
 let aba=1;
 function render(){const tb=$("#tb");tb.replaceChildren();
- if(aba===1){head(tb,["Data","Instituição","Tipo","Descrição","Status"]);
+ if(aba===1){head(tb,["Data","Instituição","Local","Tipo","Descrição","Status"]);
   const q=$("#q").value.toLowerCase(),esc=$("#esc").value,tp=$("#tipo").value,v=$("#ver").checked;let n=0;
   D.eventos.filter(e=>(!esc||e.escopo===esc)&&(!tp||e.tipo===tp)&&(!v||e.verificado)&&(!q||(e.instituicao+" "+e.titulo+" "+e.obs).toLowerCase().includes(q))).forEach(e=>{n++;
    const tr=el("tr"),d=dias(e.fim),dd=el("td",null,"dt");
@@ -45,7 +45,7 @@ function render(){const tb=$("#tb");tb.replaceChildren();
    st.append(el("span",prev?"previsão":e.verificado?"conferido":"automático","b "+(prev?"prev":e.verificado?"ok":"auto")));
    if(d>=0&&d<=7&&["inscricao","isencao","matricula"].includes(e.tipo))st.append(" ",el("span",d===0?"fecha hoje":"fecha em "+d+"d","b urg"));
    const ds=el("td");ds.append(link(e.titulo,e.url));if(e.obs){ds.append(el("div",e.obs,"mut"))}
-   tr.append(dd,el("td",e.instituicao),el("td",NOME[e.tipo]||e.tipo),ds,st);tb.append(tr)});
+   tr.append(dd,el("td",e.instituicao),el("td",e.cidade),el("td",NOME[e.tipo]||e.tipo),ds,st);tb.append(tr)});
   $("#info").textContent=n+" datas exibidas · atualizado em "+fmt(D.hoje)+" · datas automáticas devem ser conferidas no edital oficial"}
  else{head(tb,["Fonte","Tipo","Título","Visto em"]);const q=$("#q2").value.toLowerCase();let n=0;
   D.docs.filter(d=>!q||(d.instituicao+" "+d.titulo).toLowerCase().includes(q)).slice(0,600).forEach(d=>{n++;const tr=el("tr");

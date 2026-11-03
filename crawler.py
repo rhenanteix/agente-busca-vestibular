@@ -25,6 +25,10 @@ DB_PATH = BASE / "agenda.db"
 UA = f"AgendaValeRibeiraBot/2.0 (+{os.getenv('CONTATO', 'uso educacional')})"
 DELAY = float(os.getenv("DELAY", "1.0"))
 MAX_PDF_MB = 25
+MUNICIPIOS = []      # preenchido em main() a partir do fontes.json
+CIDADE_FONTE = {}    # nome da fonte -> cidade fixa
+TIPO_PT = {"isencao": "Isenção da taxa", "inscricao": "Inscrições", "prova": "Prova", "resultado": "Resultado / chamada",
+           "matricula": "Matrícula", "edital": "Edital", "academico": "Calendário acadêmico", "evento": "Evento"}
 
 MESES = {"janeiro": 1, "fevereiro": 2, "marco": 3, "abril": 4, "maio": 5, "junho": 6, "julho": 7,
          "agosto": 8, "setembro": 9, "outubro": 10, "novembro": 11, "dezembro": 12,
@@ -167,6 +171,11 @@ def baixar(url, verify=True, tentativas=3):
                              timeout=25, verify=verify)
             r.raise_for_status()
             return r
+        except requests.HTTPError as e:
+            ultimo = e
+            if e.response is not None and e.response.status_code in (400, 401, 403, 404, 410):
+                break  # não adianta tentar de novo
+            time.sleep(1.5 * (i + 1))
         except Exception as e:  # noqa
             ultimo = e
             time.sleep(1.5 * (i + 1))
@@ -247,10 +256,13 @@ def links_relevantes(soup, base_url):
 
 def eventos_de_blocos(blocos, fonte, url, hoje):
     filtro = re.compile(re.escape(norm(fonte["filtro"]))) if fonte.get("filtro") else None
+    exigir = re.compile(fonte["exigir"]) if fonte.get("exigir") else None
     eventos = []
     for b in blocos:
         texto, link = (b["texto"], b["url"]) if isinstance(b, dict) else (b, url)
         if filtro and not filtro.search(norm(texto)):
+            continue
+        if exigir and not exigir.search(norm(texto)):
             continue
         tipo = classificar(texto, fonte["categoria"])
         if not tipo:
@@ -278,7 +290,8 @@ def processar_fonte(fonte, hoje, log=print):
         eventos += eventos_de_blocos(itens, fonte, url, hoje)
         for it in itens:
             t = norm(it["texto"])
-            if (not filtro or filtro.search(t)) and (DOC_RX.search(t) or classificar(it["texto"], fonte["categoria"])):
+            ok_exigir = not fonte.get("exigir") or re.search(fonte["exigir"], t)
+            if ok_exigir and (not filtro or filtro.search(t)) and (DOC_RX.search(t) or classificar(it["texto"], fonte["categoria"])):
                 docs.append({"titulo": it["titulo"][:200], "url": it["url"], "tipo": "noticia", "pub": it["pub"]})
     elif url.lower().endswith(".pdf") or "pdf" in ctype:
         eventos += eventos_de_blocos(blocos_pdf(r.content), fonte, url, hoje)
@@ -325,7 +338,21 @@ def gnews(nome, escopo, categoria, consulta, filtro=None):
 
 
 def expandir(cfg):
-    fontes = [f for f in cfg["fontes"] if f.get("ativo", True)]
+    fontes = []
+    ano = dt.date.today().year
+    for f in cfg["fontes"]:
+        if not f.get("ativo", True):
+            continue
+        if f.get("modelo_url"):  # ex.: editais com nome previsível (E0003_20271.pdf)
+            for y in (ano, ano + 1):
+                for sem in (1, 2):
+                    for cod in f.get("codigos", [""]):
+                        g = {k: v for k, v in f.items() if k not in ("modelo_url", "codigos")}
+                        g["url"] = f["modelo_url"].format(ano=y, sem=sem, cod=cod)
+                        g["opcional"] = True
+                        fontes.append(g)
+        else:
+            fontes.append(f)
     for mod in cfg.get("gnews_por_municipio", []):
         for m in cfg.get("municipios", []):
             fontes.append(gnews("Notícias (Google News)", mod["escopo"], mod["categoria"],
@@ -415,6 +442,9 @@ def exportar(con, hoje, todos=False, dias_alerta=7):
     q += " ORDER BY inicio, instituicao"
     cols = ["escopo", "instituicao", "tipo", "titulo", "inicio", "fim", "url", "verificado", "obs"]
     rows = [dict(zip(cols, r)) for r in con.execute(q)]
+    for r in rows:
+        r["cidade"] = cidade_de(r)
+    cols = cols + ["cidade"]
     dcols = ["instituicao", "tipo", "titulo", "url", "pub", "primeira_vez"]
     docs = [dict(zip(dcols, r)) for r in con.execute(
         "SELECT instituicao,tipo,titulo,url,pub,primeira_vez FROM documentos ORDER BY primeira_vez DESC, tipo LIMIT 1500")]
@@ -444,8 +474,53 @@ def exportar(con, hoje, todos=False, dias_alerta=7):
         f"• até {dt.date.fromisoformat(f):%d/%m} [{i}] {t}: {ti[:80]}" for i, t, ti, _, f, _ in pp]
     (SAIDA / "prazos_proximos.txt").write_text("\n".join(linhas) if pp else "Nenhum prazo verificado fechando em breve.",
                                                encoding="utf-8")
+    agenda = exportar_agenda(rows)
     painel(rows, docs, hoje)
     return rows, docs, pp
+
+
+def cidade_de(r):
+    if r["instituicao"] in CIDADE_FONTE:
+        return CIDADE_FONTE[r["instituicao"]]
+    t = norm(r["titulo"])
+    for m in MUNICIPIOS:
+        if norm(m) in t:
+            return m
+    return "Todo o Brasil" if r["escopo"] == "nacional" else "Vale do Ribeira"
+
+
+def exportar_agenda(rows):
+    """Arquivo pronto para alimentar a agenda (JSON + CSV com os mesmos campos)."""
+    agora = dt.datetime.now().isoformat(timespec="minutes")
+    out = []
+    for r in rows:
+        prev = (r["obs"] or "").startswith("PREVISÃO")
+        status = "previsao" if prev else "conferido" if r["verificado"] else "automatico"
+        out.append({
+            "id": hashlib.sha1(f"{r['instituicao']}|{r['tipo']}|{r['inicio']}|{r['fim']}|{r['titulo'][:40]}".encode()).hexdigest()[:12],
+            "titulo": r["titulo"] if r["verificado"] else (r["titulo"][:120] if r["instituicao"].startswith("Notícias")
+                      else f"{TIPO_PT.get(r['tipo'], r['tipo'])} - {r['instituicao']}"),
+            "descricao": (r["obs"] if r["verificado"] else r["titulo"]) or "",
+            "categoria": TIPO_PT.get(r["tipo"], r["tipo"]),
+            "data_inicio": r["inicio"], "data_fim": r["fim"],
+            "instituicao": r["instituicao"], "cidade": r["cidade"], "abrangencia": r["escopo"],
+            "link": r["url"] or "", "status": status, "atualizado_em": agora})
+    (SAIDA / "agenda_rota_universitaria.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    with (SAIDA / "agenda_rota_universitaria.csv").open("w", newline="", encoding="utf-8-sig") as fh:
+        w = csv.DictWriter(fh, fieldnames=list(out[0].keys()) if out else ["id"])
+        w.writeheader()
+        w.writerows(out)
+    url = os.getenv("WEBHOOK_URL")  # opcional: envia o JSON para o seu sistema
+    if url and out:
+        try:
+            h = {"Content-Type": "application/json"}
+            if os.getenv("WEBHOOK_TOKEN"):
+                h["Authorization"] = "Bearer " + os.getenv("WEBHOOK_TOKEN")
+            rr = requests.post(url, data=json.dumps(out, ensure_ascii=False).encode("utf-8"), headers=h, timeout=30)
+            print(f"Webhook: HTTP {rr.status_code}")
+        except Exception as e:  # noqa
+            print("Webhook falhou:", e)
+    return out
 
 
 def painel(rows, docs, hoje):
@@ -487,12 +562,18 @@ def main():
     ap.add_argument("--only")
     ap.add_argument("--sem-noticias", action="store_true")
     ap.add_argument("--alerta-dias", type=int, default=7)
+    ap.add_argument("--reset", action="store_true", help="apaga o banco local (agenda.db) antes de rodar")
     ap.add_argument("--fontes", default=str(BASE / "fontes.json"))
     a = ap.parse_args()
 
     hoje = dt.date.today()
     agora = dt.datetime.now().isoformat(timespec="seconds")
-    fontes = expandir(json.loads(Path(a.fontes).read_text(encoding="utf-8")))
+    cfg = json.loads(Path(a.fontes).read_text(encoding="utf-8"))
+    MUNICIPIOS[:] = cfg.get("municipios", [])
+    CIDADE_FONTE.update({f["nome"]: f["cidade"] for f in cfg["fontes"] if f.get("cidade")})
+    if a.reset and DB_PATH.exists():
+        DB_PATH.unlink()
+    fontes = expandir(cfg)
     if a.only:
         fontes = [f for f in fontes if a.only.lower() in f["nome"].lower()]
     if a.sem_noticias:
@@ -510,6 +591,10 @@ def main():
                 novos += salvar(con, ev, agora)
                 docs_novos += salvar_docs(con, docs, agora)
         except Exception as e:  # noqa
+            if f.get("opcional"):
+                print(f"[-- ] {rotulo[:44]:<44} não existe (normal): {f['url'][-40:]}")
+                time.sleep(DELAY / 2)
+                continue
             falhas += 1
             print(f"[ERR] {rotulo[:44]:<44} {type(e).__name__}: {str(e)[:80]}")
         time.sleep(DELAY)

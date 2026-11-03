@@ -1,42 +1,35 @@
-# Agenda Vale do Ribeira (v2)
+# Agenda Universitária - Vale do Ribeira
 
-Coleta automática de **datas, editais, isenções de taxa e eventos**: ENEM/Sisu/ProUni/Fies, vestibulares
-(Fuvest, Unicamp, Unesp, Etec, Fatec, IFSP, Univesp), faculdades da região (IFSP Registro, Unesp Registro, UNIVR/Unisepe),
-prefeituras e notícias dos 23 municípios do Vale (via Google News RSS).
+Coleta datas de **vestibulares, inscrições, isenção de taxa, matrículas, editais e eventos acadêmicos**
+das instituições do Vale do Ribeira (IFSP Registro, Unesp Registro, UNIVR/Unisepe, prefeituras e notícias dos 23 municípios)
+e dos programas **nacionais** (ENEM, Encceja, Sisu, ProUni, Fies). Vestibulares de fora da região (Fuvest, Unicamp, Etec...)
+ficam desativados em `fontes.json` (`"ativo": false`).
 
-## Rodar
+## Rodar (Mac)
+    cd agente-busca-vestibular
+    python3 -m venv venv && source venv/bin/activate
     pip install -r requirements.txt
-    python crawler.py --check          # 1º passo: quais URLs respondem e quantas datas/links cada uma rendeu
-    python crawler.py                  # coleta tudo -> pasta docs/
-    python crawler.py --sem-noticias   # só fontes diretas (mais rápido)
+    python crawler.py --reset --check     # testa as fontes ([OK] / [ERR])
+    python crawler.py --sem-noticias      # coleta rápida (poucos minutos)
+    python crawler.py                     # coleta completa (inclui Google News, ~10 min)
+Depois é só `source venv/bin/activate` e `python crawler.py` nas próximas vezes. Abra `docs/index.html` para ver o painel.
 
-Abra `docs/index.html` no navegador: painel com busca, filtro por nível/tipo, aba de editais/links e alerta de prazos.
+## Para alimentar a agenda (ribeiraconnect.com.br/rota-universitaria/agenda)
+Use **`docs/agenda_rota_universitaria.json`** (ou `.csv`). Campos de cada item:
+`id, titulo, descricao, categoria, data_inicio, data_fim, instituicao, cidade, abrangencia (nacional|regional), link, status, atualizado_em`
 
-## O que sai em docs/
-| arquivo | conteúdo |
-|---|---|
-| index.html | painel (datas + editais e links) |
-| eventos.ics | importe no Google Agenda / Apple / Outlook |
-| eventos.csv / .json | todas as datas (tipo: isenção, inscrição, prova, resultado, matrícula, edital, acadêmico, evento) |
-| documentos.csv / .json | editais (PDF), páginas de edital/calendário e notícias encontradas |
-| prazos_proximos.txt | inscrições/isenções/matrículas conferidas que fecham em até 7 dias |
-| novos.txt | o que apareceu desde a última execução |
+`status`: **conferido** (verificado em fontes oficiais), **previsao** (estimativa, sem edital ainda) ou **automatico**
+(lido do site; confira no edital antes de publicar). Sugestão: publique só `conferido` + `previsao` e revise os `automatico`.
+
+Envio automático para o seu sistema: defina `WEBHOOK_URL` (e `WEBHOOK_TOKEN`, opcional) e o crawler faz um POST com o JSON toda vez que rodar.
+
+## Outras saídas (docs/)
+index.html (painel) · eventos.ics (calendário) · documentos.csv (editais/PDFs/notícias) · prazos_proximos.txt · novos.txt
 
 ## Automatizar (grátis)
-1. Suba a pasta para um repositório no GitHub.
-2. O workflow `.github/workflows/crawler.yml` roda todo dia às 06h e atualiza `docs/`.
-3. Settings > Pages > "Deploy from a branch" > pasta `/docs`: o painel e o `.ics` ganham URL pública
-   (assine `https://SEU-USUARIO.github.io/REPO/eventos.ics` no Google Agenda e ele se atualiza sozinho).
-4. Avisos no celular: crie um bot no Telegram (@BotFather) e salve os secrets `TELEGRAM_BOT_TOKEN` e `TELEGRAM_CHAT_ID`.
-Alternativa local: `crontab -e` -> `0 6 * * * cd /caminho && python3 crawler.py`
+Suba para o GitHub: `.github/workflows/crawler.yml` roda todo dia às 06h. Secrets opcionais: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `WEBHOOK_URL`, `WEBHOOK_TOKEN`.
 
-## Personalizar
-- `fontes.json`: adicione sites (copie uma linha), mude `categoria` (`educacao`, `faculdade` = + eventos/calendário acadêmico, `local`).
-  `municipios` e `gnews_*` geram as buscas automáticas; edite os termos à vontade.
-- `eventos_base.csv`: datas já conferidas. Linhas com `PREVISÃO` na coluna `obs` são estimativas (aparecem em amarelo).
-
-## Limites (leia)
-- Datas lidas de texto podem errar contexto: **confira no edital** antes de agir. Só `conferido` é manual; `automático` não.
-- Google News traz só manchete: serve para descobrir edital/notícia nova (aba "Editais e links") e datas que estejam no título.
-- Sites que carregam tudo por JavaScript, ou publicam só imagem/banner, não são lidos (precisaria Playwright/OCR).
-- Respeita robots.txt (exceto RSS do Google News) e espera 1s entre requisições; defina `CONTATO` com seu e-mail.
+## Limites
+- O crawler não foi testado nos sites reais; rode `--check` e ajuste URLs que derem `[ERR]` em `fontes.json`.
+- Datas lidas de texto podem errar contexto: confira `automatico` no edital.
+- Sites só com imagem/JavaScript pesado não são lidos.

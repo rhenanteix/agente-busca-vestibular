@@ -8,24 +8,11 @@ nacional,INEP - ENEM,ENEM 2026 - 1º dia de provas,prova,2026-11-08,2026-11-08,h
 nacional,INEP - ENEM,ENEM 2026 - 2º dia de provas,prova,2026-11-15,2026-11-15,https://www.gov.br/inep,,1
 nacional,INEP - ENEM,ENEM 2026 - Gabaritos (até o 10º dia útil após 15/11),resultado,2026-11-16,2026-11-30,https://www.gov.br/inep,PREVISÃO calculada: ~30/11 considerando o feriado de 20/11,0
 nacional,INEP - ENEM,ENEM 2026 - Resultados individuais,resultado,2027-01-01,2027-01-31,https://www.gov.br/inep,PREVISÃO: INEP ainda não fixou a data,0
-nacional,INEP - ENEM,ENEM 2027 - Inscrições (início),inscricao,2027-05-01,2027-06-30,https://www.gov.br/inep,PREVISÃO por histórico: edital de 2026 saiu em 22/05 e inscrições abriram em 25/05. Sem edital 2027 ainda,0
+nacional,INEP - ENEM,ENEM 2027 - Inscrições (início),inscricao,2027-05-01,2027-06-30,https://www.gov.br/inep,PREVISÃO por histórico: edital de 2026 saiu em 22/05 e inscrições abriram em 25/05. Ainda sem edital 2027,0
 nacional,SISU,Sisu 2027 - Inscrições,inscricao,2027-01-01,2027-01-31,https://acessounico.mec.gov.br/sisu,"PREVISÃO: MEC ainda não publicou o cronograma. ProUni 2027.1 e Fies 2027.1 vêm em seguida, sem datas",0
-estadual,Fuvest (USP),Fuvest 2027 - Pedido de redução/isenção da taxa,isencao,2026-05-11,2026-07-10,https://www.fuvest.br,,1
-estadual,Fuvest (USP),Fuvest 2027 - Inscrições,inscricao,2026-08-17,2026-10-09,https://www.fuvest.br,Fecharam às 12h de 09/10,1
-estadual,Fuvest (USP),Fuvest 2027 - Divulgação dos locais da 1ª fase,resultado,2026-10-21,2026-10-21,https://www.fuvest.br,,1
-estadual,Fuvest (USP),Fuvest 2027 - 1ª fase,prova,2026-11-01,2026-11-01,https://www.fuvest.br,Antecipada de 15/11 para 01/11; 80 questões,1
-estadual,Fuvest (USP),Fuvest 2027 - Convocados para a 2ª fase e locais,resultado,2026-11-23,2026-11-23,https://www.fuvest.br,,1
-estadual,Fuvest (USP),Fuvest 2027 - 2ª fase,prova,2026-12-06,2026-12-07,https://www.fuvest.br,Antecipada de 13-14/12,1
-estadual,Fuvest (USP),Fuvest 2027 - Provas de competências específicas,prova,2026-12-08,2026-12-11,https://www.fuvest.br,"Música, Artes Cênicas e Artes Visuais",1
-estadual,Fuvest (USP),Fuvest 2027 - 1ª chamada,resultado,2027-01-26,2027-01-26,https://www.fuvest.br,,1
-estadual,Unicamp (Comvest),Unicamp 2027 - Fim do prazo de pedido de isenção,isencao,2026-06-05,2026-06-05,https://www.comvest.unicamp.br,,1
-estadual,Unicamp (Comvest),Unicamp 2027 - Inscrições,inscricao,2026-08-03,2026-08-31,https://www.comvest.unicamp.br,Conferir no edital; datas das provas serão coletadas pelo crawler,1
-estadual,Unesp / Vunesp,Unesp 2027 - Inscrições,inscricao,2026-09-04,2026-10-08,https://www.vunesp.com.br,Fontes divergem (08/10 x 20/10): conferir no edital,1
-estadual,Unesp / Vunesp,Unesp 2027 - 1ª fase,prova,2026-11-22,2026-11-22,https://www.vunesp.com.br,Mesma data da prova do IFSP,1
-estadual,Unesp / Vunesp,Unesp 2027 - 2ª fase,prova,2026-12-13,2026-12-14,https://www.vunesp.com.br,,1
-estadual,IFSP,IFSP 2027 (técnicos integrados) - Pedido de isenção da taxa,isencao,2026-09-08,2026-09-18,https://www.ifsp.edu.br,Vale para o campus Registro; taxa R$ 60,1
-estadual,IFSP,IFSP 2027 (técnicos integrados) - Inscrições,inscricao,2026-09-08,2026-10-05,https://www.ifsp.edu.br,,1
-estadual,IFSP,IFSP 2027 (técnicos integrados) - Prova,prova,2026-11-22,2026-11-22,https://www.ifsp.edu.br,,1
-estadual,Etec - Vestibulinho,Etec 1º sem/2027 - Fim das inscrições (até 20h),inscricao,2026-11-03,2026-11-03,https://vestibulinho.etec.sp.gov.br,Taxa R$ 50,1
-estadual,Etec - Vestibulinho,Etec 1º sem/2027 - Divulgação dos locais de prova (15h),resultado,2026-12-02,2026-12-02,https://vestibulinho.etec.sp.gov.br,,1
-estadual,Etec - Vestibulinho,Etec 1º sem/2027 - Prova (13h30),prova,2026-12-06,2026-12-06,https://vestibulinho.etec.sp.gov.br,,1
+regional,Unesp / Vunesp,Vestibular Unesp 2027 (inclui Câmpus Registro) - Inscrições,inscricao,2026-09-04,2026-10-08,https://www.vunesp.com.br,Fontes divergem (08/10 x 20/10): conferir no edital. Taxa R$ 225,1
+regional,Unesp / Vunesp,Vestibular Unesp 2027 (inclui Câmpus Registro) - 1ª fase,prova,2026-11-22,2026-11-22,https://www.vunesp.com.br,Mesma data da prova do IFSP,1
+regional,Unesp / Vunesp,Vestibular Unesp 2027 (inclui Câmpus Registro) - 2ª fase,prova,2026-12-13,2026-12-14,https://www.vunesp.com.br,,1
+regional,IFSP,"IFSP 2027 (técnicos integrados, Campus Registro) - Pedido de isenção da taxa",isencao,2026-09-08,2026-09-18,https://www.ifsp.edu.br,Taxa R$ 60,1
+regional,IFSP,"IFSP 2027 (técnicos integrados, Campus Registro) - Inscrições",inscricao,2026-09-08,2026-10-05,https://www.ifsp.edu.br,,1
+regional,IFSP,"IFSP 2027 (técnicos integrados, Campus Registro) - Prova",prova,2026-11-22,2026-11-22,https://www.ifsp.edu.br,,1
