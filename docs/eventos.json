@@ -1,54 +1,6 @@
 [
   {
     "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "inscricao",
-    "titulo": "Inscrições: 26 de outubro a 3 de novembro",
-    "inicio": "2026-10-26",
-    "fim": "2026-11-03",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/fies-remanescente-inscricoes-terminam-na-terca-feira-3-11",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "inscricao",
-    "titulo": "O O s estudantes interessados em concorrer às vagas remanescentes do Fundo de Financiamento Estudantil (Fies) referentes ao segundo semestre de 2026 têm até terça-feira, 3 de novembro, para realizar a inscrição. O proces",
-    "inicio": "2026-11-03",
-    "fim": "2026-11-03",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/fies-remanescente-inscricoes-terminam-na-terca-feira-3-11",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "regional",
-    "instituicao": "Notícias (Google News)",
-    "tipo": "inscricao",
-    "titulo": "Vestibulinho da Etec: inscrições vão até 3 de novembro; saiba mais - Giro S/A. Vestibulinho da Etec: inscrições vão até 3 de novembro; saiba mais Giro S/A",
-    "inicio": "2026-11-03",
-    "fim": "2026-11-03",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XMWd3OHpveFhFYmI0dlItemdpWEZlOEdqQjJxSEF5ai1RRE5VazEtTUFCZG9WNzluYjdyYzZFbnlxTFhxeHk2RjlzUzdBdEJLczFjelZCTHhDXy1DLXVoMjRlVnhrUlFWUHBBREZiWQ?oc=5",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Vale do Ribeira"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "Notícias (Google News)",
-    "tipo": "inscricao",
-    "titulo": "Impa Tech abre 150 vagas de graduação gratuita em 3 de novembro; inscrição vai até 23 de dezembro - soubrasilia.com. Impa Tech abre 150 vagas de graduação gratuita em 3 de novembro; inscrição vai até 23 de dezembro soubr",
-    "inicio": "2026-11-03",
-    "fim": "2026-11-03",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQkhILVNjSng0LWNIYVA3LXRnQ3RKZm9xcEV4enkwdzNoNnZWLUE3aUJXYllNTGRCamdyWHdXRnMwUUhHYmtkeHg2aWd2ZGRnWFg4UktuZE9sd3Y5T3lGRVJzRllnV1B4QUtSbkNmaFkybVRJcG9tR1ZPQkFUTHo0NDhNMm9TLU4xNWlrNEpoTExlYk5qUUtnZXVrY3NFTGtCVll1OA?oc=5",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
     "instituicao": "INEP - ENEM",
     "tipo": "prova",
     "titulo": "ENEM 2026 - 1º dia de provas",
@@ -166,6 +118,42 @@
     "verificado": 0,
     "obs": "",
     "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "regional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Centro Paula Souza prorroga inscrições para o Vestibular das Fatecs até 16 de novembro - BOM DIA SOROCABA. Centro Paula Souza prorroga inscrições para o Vestibular das Fatecs até 16 de novembro BOM DIA SOROCABA",
+    "inicio": "2026-11-16",
+    "fim": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUnlCRlppQ01ZYmZVV3c5WkZxVWRyanY3SVVwVnpZOGdrOHdQZnhaa3dmM2djZ2JzaGM1WXpTcjFRamlnYUt6dE9qWG5Hakx3TVRvRVp2MlNfNXIzSk5TeUdrSVJvZVRaNVBJZzZxQTVucFdzUG9PY3RYQjVqbEJhbDgta2xyMTJGN2RrSWJqMHoySW05OVN4TFluNzBSLXNfcGFvNVVtZHQ4Qlk4Y2tpOUhIVDlUZzFqeGhsT1ZobDlWOHhuVWc3VWdwUQ?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Vale do Ribeira"
+  },
+  {
+    "escopo": "regional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Fatecs prorrogam inscrições para vestibular até 16 de novembro - Dhoje Interior. Fatecs prorrogam inscrições para vestibular até 16 de novembro Dhoje Interior",
+    "inicio": "2026-11-16",
+    "fim": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUUhxUE95c0g4bnZ3b0VOTWREeDkxemxZUXhFTkNhRlZJSzMzWnIyMHYxeVhnNG1BRFRwUjVxUThRWkZxMVdkelpKUGRZdjVkRHY0Q01CdHFhWnVzMUc2cTNtM08wUUFwT1ljRjY4WERsWExCNm5RODloRUtudzRFUTh5ZUtiVTFhUVRLOE5vTDV2ZkJpTXNkcjY5TFpfU0d4TWwweW9oQWU1R0tOVG0tSVV3?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Vale do Ribeira"
+  },
+  {
+    "escopo": "regional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Fatecs prorrogam prazo de inscrições para o vestibular até 16 de novembro - O Diário de Mogi. Fatecs prorrogam prazo de inscrições para o vestibular até 16 de novembro O Diário de Mogi",
+    "inicio": "2026-11-16",
+    "fim": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTjFpT2tsbW9pcnNGQ2psbFR2TjJLVE1rZU1OOFJZcnFTYU1kOER1SWlDaU82OHJnWDBvbEk2NDJUc3ktMVgtdEZDUmFWQXRjN0ZMYkhCQ0QtQmwtSUtsaFRVaDlLV0dSWl9oNmJYYXlfZWk1N3hUTEdmOVBBaUVWS0dYajBSQkticHZPelhFa25QLTB2eDRtYVJ3Q2ZtbEIwdS1DZGQzT1RfM2t3VW5WMjlrdGkxeDV5eVE?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Vale do Ribeira"
   },
   {
     "escopo": "regional",
@@ -499,6 +487,18 @@
     "inicio": "2027-11-03",
     "fim": "2027-11-03",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRkZMSWcxeVp6Q0Yyc2huUmV1UkZfWWt0TmpYNEh3cnhPdElsOGNmY2wzMVp1dExlLTlHS2NmX1lyX2J4NER6ck5HSmQyejVfZmI5dW5zZzRidWREeHNDbG9xVmo3V2V4Sk5QeWRiR25TNzkwMjBTb1BfQ0lXMlFaWnFyRGFLVU8tQTE3OURGbE11MnpDZi15akpUM1ZjWmhtbkc1Z0tYN3dHU1FFcnVNbGZhTVllUDd6SjlqLWg2UEJqS2otNUdoLTdWNC1fLXlXVVE?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Vale do Ribeira"
+  },
+  {
+    "escopo": "regional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Vestibulinho Etec 2027: inscrições são prorrogadas até 10 de novembro em Mongaguá - BS9. Vestibulinho Etec 2027: inscrições são prorrogadas até 10 de novembro em Mongaguá BS9",
+    "inicio": "2027-11-10",
+    "fim": "2027-11-10",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPallFUng3N25YN1hvRjdkZmRhaFRIZ2J4V0R2T1Z0YjBvaHhFbS1Fa2pLbGt1WV92Ri1lYVhCT0ZjVEp5dWhpOVB5NWpxRjU3Q3N2ZlNmRktJTkhDVjE3NTNwc1JsRndQemlOME9aTnNrdTY1QTUxcmlvemwzajAtcHduZVVIbWFjZmtocHlkQmtQTmpSdjhEWEZXX2hBa1pRaU9vMUhsZFh0dVFCMHhfakRzOUotMnU1UVVtOER6MGNLOGdrdWc?oc=5",
     "verificado": 0,
     "obs": "",
     "cidade": "Vale do Ribeira"
