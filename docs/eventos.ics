@@ -5,7 +5,7 @@ X-WR-CALNAME:Agenda Vale do Ribeira
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
 UID:25add9b31f384fadb674@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:[INEP - ENEM] Prova: ENEM 2026 - 1º dia de provas
@@ -13,7 +13,7 @@ DESCRIPTION:ENEM 2026 - 1º dia de provas | Portões fecham 13h (Brasília)\; pr
 END:VEVENT
 BEGIN:VEVENT
 UID:37844f39d3378e6eb84e@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261116
 SUMMARY:[MEC - Notícias] Prova: Com uma rotina recheada\, composta por estudo regular\, aulas de língua 
@@ -21,7 +21,7 @@ DESCRIPTION:Com uma rotina recheada\, composta por estudo regular\, aulas de lí
 END:VEVENT
 BEGIN:VEVENT
 UID:1f91aa40697d56dd72a9@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261116
 SUMMARY:[MEC - Notícias] Inscricao: Cartão de Confirmação de Inscrição está disponível na Página do Partic
@@ -29,7 +29,7 @@ DESCRIPTION:Cartão de Confirmação de Inscrição está disponível na Página
 END:VEVENT
 BEGIN:VEVENT
 UID:cb48bab77646ea85da85@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:[Notícias (Google News)] Inscricao: Vestibulinho da Etec de Praia Grande tem inscrições prorrogadas até 10
@@ -37,7 +37,7 @@ DESCRIPTION:Vestibulinho da Etec de Praia Grande tem inscrições prorrogadas at
 END:VEVENT
 BEGIN:VEVENT
 UID:6d91b163fe2c8f83cf49@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:[Notícias (Google News)] Inscricao: Inscrições para vestibulinho da ETEC vão até o dia 10 de novembro. - G
@@ -45,7 +45,7 @@ DESCRIPTION:Inscrições para vestibulinho da ETEC vão até o dia 10 de novembr
 END:VEVENT
 BEGIN:VEVENT
 UID:ebe6fd5b66c260a6e556@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:[Notícias (Google News)] Inscricao: Vestibulinho das Etecs prorroga inscrições até 10 de novembro - www.im
@@ -53,7 +53,7 @@ DESCRIPTION:Vestibulinho das Etecs prorroga inscrições até 10 de novembro - w
 END:VEVENT
 BEGIN:VEVENT
 UID:a79f7bd6c3ea9db30e9d@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:[INEP - ENEM] Prova: ENEM 2026 - 2º dia de provas
@@ -61,7 +61,7 @@ DESCRIPTION:ENEM 2026 - 2º dia de provas | https://www.gov.br/inep
 END:VEVENT
 BEGIN:VEVENT
 UID:22d89ef6765c0b43de75@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:[MEC - Notícias] Inscricao: O O Ministério da Educação (MEC)\, em parceria com a Universidade Feder
@@ -69,7 +69,7 @@ DESCRIPTION:O O Ministério da Educação (MEC)\, em parceria com a Universidade
 END:VEVENT
 BEGIN:VEVENT
 UID:98383c2b5930a2262584@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261201
 SUMMARY:[INEP - ENEM] Resultado: ENEM 2026 - Gabaritos (até o 10º dia útil após 15/11)
@@ -77,7 +77,7 @@ DESCRIPTION:ENEM 2026 - Gabaritos (até o 10º dia útil após 15/11) | PREVISÃ
 END:VEVENT
 BEGIN:VEVENT
 UID:46dce92ae45ab8d934cb@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:[MEC - Notícias] Resultado: Resultado da chamada única: 16 de novembro
@@ -85,7 +85,7 @@ DESCRIPTION:Resultado da chamada única: 16 de novembro | https://www.gov.br/mec
 END:VEVENT
 BEGIN:VEVENT
 UID:ba2d62ab59844227a9ad@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:[Notícias (Google News)] Inscricao: Centro Paula Souza prorroga inscrições para o Vestibular das Fatecs at
@@ -93,7 +93,7 @@ DESCRIPTION:Centro Paula Souza prorroga inscrições para o Vestibular das Fatec
 END:VEVENT
 BEGIN:VEVENT
 UID:746e0581f6af542f7a29@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:[Notícias (Google News)] Inscricao: Fatecs prorrogam inscrições para vestibular até 16 de novembro - Dhoje
@@ -101,15 +101,23 @@ DESCRIPTION:Fatecs prorrogam inscrições para vestibular até 16 de novembro - 
 END:VEVENT
 BEGIN:VEVENT
 UID:b2555718397dea7fa897@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:[Notícias (Google News)] Inscricao: Fatecs prorrogam prazo de inscrições para o vestibular até 16 de novem
 DESCRIPTION:Fatecs prorrogam prazo de inscrições para o vestibular até 16 de novembro - O Diário de Mogi. Fatecs prorrogam prazo de inscrições para o vestibular até 16 de novembro O Diário de Mogi | https://news.google.com/rss/articles/CBMiugFBVV95cUxOTjFpT2tsbW9pcnNGQ2psbFR2TjJLVE1rZU1OOFJZcnFTYU1kOER1SWlDaU82OHJnWDBvbEk2NDJUc3ktMVgtdEZDUmFWQXRjN0ZMYkhCQ0QtQmwtSUtsaFRVaDlLV0dSWl9oNmJYYXlfZWk1N3hUTEdmOVBBaUVWS0dYajBSQkticHZPelhFa25QLTB2eDRtYVJ3Q2ZtbEIwdS1DZGQzT1RfM2t3VW5WMjlrdGkxeDV5eVE?oc=5
 END:VEVENT
 BEGIN:VEVENT
+UID:e4a77858b750eedee5b4@agenda-vale
+DTSTAMP:20261105T170009Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:[Notícias (Google News)] Inscricao: Fatec Taubaté oferece 98 vagas em cursos gratuitos\; inscrições são pro
+DESCRIPTION:Fatec Taubaté oferece 98 vagas em cursos gratuitos\; inscrições são prorrogadas até 16 de novembro - Guia Taubaté. Fatec Taubaté oferece 98 vagas em cursos gratuitos\; inscrições são prorrogadas até 16 de novembro Guia Tau | https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUWZLRXhLLXRjeEdDWnUtSklXa2FDbWZCbzJvZFJJaWswZkdlZkg4TDJXS0s4bGxybHFMcWE5b0NtV3NkcHFobXFjMWRqZnN4alUwcjZua2FTMTNfeklRN3NjanJlcmZMd05lcXV2QmJjRDVxNlBxZ2txRW9hSktBbXV3aDhicWlEbmI5cVo3bm9ZOW5vTFZleUMwbXFkUWJPQlY3d0xUQlVybm84TUZwcDJQbWpPYnJtVnl1bVZEY2hfbGRTU0RZRjh0V01zR09memdHZ2YxNA?oc=5
+END:VEVENT
+BEGIN:VEVENT
 UID:54e5cd5d00a84c975497@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:[IFSP] Prova: IFSP 2027 (técnicos integrados\, Campus Registro) - Prova
@@ -117,7 +125,7 @@ DESCRIPTION:IFSP 2027 (técnicos integrados\, Campus Registro) - Prova | https:/
 END:VEVENT
 BEGIN:VEVENT
 UID:5224f1535db817420a78@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:[Unesp / Vunesp] Prova: Vestibular Unesp 2027 (inclui Câmpus Registro) - 1ª fase
@@ -125,7 +133,7 @@ DESCRIPTION:Vestibular Unesp 2027 (inclui Câmpus Registro) - 1ª fase | Mesma d
 END:VEVENT
 BEGIN:VEVENT
 UID:00eb1a498ad06d3e76e9@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261201
 SUMMARY:[MEC - Notícias] Resultado: Convocação da lista de espera: 25 a 30 de novembro
@@ -133,7 +141,7 @@ DESCRIPTION:Convocação da lista de espera: 25 a 30 de novembro | https://www.g
 END:VEVENT
 BEGIN:VEVENT
 UID:39ef2bc6b83ff52b29cb@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:[MEC - Notícias] Edital: Participantes menores de 18 anos deverão enviar autorização do respons
@@ -141,7 +149,7 @@ DESCRIPTION:Participantes menores de 18 anos deverão enviar autorização do re
 END:VEVENT
 BEGIN:VEVENT
 UID:8d3b9a3ed030d68679e5@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261205
 SUMMARY:[MEC - Notícias] Inscricao: O O Ministério da Educação (MEC)\, em parceria com a Universidade Feder
@@ -149,7 +157,7 @@ DESCRIPTION:O O Ministério da Educação (MEC)\, em parceria com a Universidade
 END:VEVENT
 BEGIN:VEVENT
 UID:1c62c44562951282e6f0@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261215
 SUMMARY:[Unesp / Vunesp] Prova: Vestibular Unesp 2027 (inclui Câmpus Registro) - 2ª fase
@@ -157,7 +165,7 @@ DESCRIPTION:Vestibular Unesp 2027 (inclui Câmpus Registro) - 2ª fase | https:/
 END:VEVENT
 BEGIN:VEVENT
 UID:20b8a76cfaa133ad2cd7@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:[Notícias (Google News)] Resultado: Encceja 2026: Inep confirma gabarito para setembro e resultado em 14 d
@@ -165,7 +173,7 @@ DESCRIPTION:Encceja 2026: Inep confirma gabarito para setembro e resultado em 14
 END:VEVENT
 BEGIN:VEVENT
 UID:e98379dba952cacae094@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:[Notícias (Google News)] Resultado: Encceja 2026: gabarito sai até 4 de setembro e resultado em 14 de deze
@@ -173,7 +181,7 @@ DESCRIPTION:Encceja 2026: gabarito sai até 4 de setembro e resultado em 14 de d
 END:VEVENT
 BEGIN:VEVENT
 UID:e9255d1b56bbbd79fb53@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:[Notícias (Google News)] Inscricao: Impa Tech abre 150 vagas de graduação gratuita em 3 de novembro\; inscr
@@ -181,7 +189,7 @@ DESCRIPTION:Impa Tech abre 150 vagas de graduação gratuita em 3 de novembro\; 
 END:VEVENT
 BEGIN:VEVENT
 UID:98c7715262759d9bdd21@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:[MEC - Notícias] Inscricao: Chamamento é destinado a pessoas jurídicas que querem oferecer descont
@@ -189,7 +197,7 @@ DESCRIPTION:Chamamento é destinado a pessoas jurídicas que querem oferecer des
 END:VEVENT
 BEGIN:VEVENT
 UID:5be34f578f535ce9d70b@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270201
 SUMMARY:[INEP - ENEM] Resultado: ENEM 2026 - Resultados individuais
@@ -197,7 +205,7 @@ DESCRIPTION:ENEM 2026 - Resultados individuais | PREVISÃO: INEP ainda não fixo
 END:VEVENT
 BEGIN:VEVENT
 UID:716e6af310be241b5ada@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270201
 SUMMARY:[SISU] Inscricao: Sisu 2027 - Inscrições
@@ -205,7 +213,7 @@ DESCRIPTION:Sisu 2027 - Inscrições | PREVISÃO: MEC ainda não publicou o cron
 END:VEVENT
 BEGIN:VEVENT
 UID:99f790d19020bc892f33@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270701
 SUMMARY:[INEP - ENEM] Inscricao: ENEM 2027 - Inscrições (início)
@@ -213,7 +221,7 @@ DESCRIPTION:ENEM 2027 - Inscrições (início) | PREVISÃO por histórico: edita
 END:VEVENT
 BEGIN:VEVENT
 UID:15d3e72a5b61ea85557d@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20270813
 DTEND;VALUE=DATE:20270814
 SUMMARY:[Notícias (Google News)] Inscricao: Inscrições do Vestibular FURG 2027 começam 13 de agosto - Universidade
@@ -221,7 +229,7 @@ DESCRIPTION:Inscrições do Vestibular FURG 2027 começam 13 de agosto - Univers
 END:VEVENT
 BEGIN:VEVENT
 UID:93274287ec9919013597@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20270828
 DTEND;VALUE=DATE:20270829
 SUMMARY:[Notícias (Google News)] Inscricao: Unicamp abre 699 vagas remanescentes em 2027\; inscrições seguem até 28
@@ -229,7 +237,7 @@ DESCRIPTION:Unicamp abre 699 vagas remanescentes em 2027\; inscrições seguem a
 END:VEVENT
 BEGIN:VEVENT
 UID:05ec7d5689af433893d4@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20270915
 DTEND;VALUE=DATE:20270916
 SUMMARY:[Notícias (Google News)] Inscricao: Vestibular UNEB 2027: inscrições começam em 15 de setembro | SECOM - S
@@ -237,7 +245,7 @@ DESCRIPTION:Vestibular UNEB 2027: inscrições começam em 15 de setembro | SECO
 END:VEVENT
 BEGIN:VEVENT
 UID:60d6b7628198f1984117@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271014
 DTEND;VALUE=DATE:20271015
 SUMMARY:[Notícias (Google News)] Inscricao: Processo Seletivo UFPA 2027 abre inscrições em 14 de outubro\; veja com
@@ -245,7 +253,7 @@ DESCRIPTION:Processo Seletivo UFPA 2027 abre inscrições em 14 de outubro\; vej
 END:VEVENT
 BEGIN:VEVENT
 UID:721362fc4658b0a3bce2@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271014
 DTEND;VALUE=DATE:20271015
 SUMMARY:[Notícias (Google News)] Inscricao: Processo Seletivo UFPA 2027 publica edital com 7.003 vagas e abre insc
@@ -253,7 +261,7 @@ DESCRIPTION:Processo Seletivo UFPA 2027 publica edital com 7.003 vagas e abre in
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e518c2ced4ef614520@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271019
 DTEND;VALUE=DATE:20271020
 SUMMARY:[Notícias (Google News)] Inscricao: Inscrições para cursos técnicos e de graduação oferecidos no Processo 
@@ -261,7 +269,7 @@ DESCRIPTION:Inscrições para cursos técnicos e de graduação oferecidos no Pr
 END:VEVENT
 BEGIN:VEVENT
 UID:876610185e5997350bb4@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271023
 DTEND;VALUE=DATE:20271110
 SUMMARY:[Notícias (Google News)] Inscricao: PSEMus 2027 oferta 60 vagas para cursos de licenciatura e bacharelado 
@@ -269,7 +277,7 @@ DESCRIPTION:PSEMus 2027 oferta 60 vagas para cursos de licenciatura e bacharelad
 END:VEVENT
 BEGIN:VEVENT
 UID:0fbfc554974c938716c1@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271026
 DTEND;VALUE=DATE:20271027
 SUMMARY:[Notícias (Google News)] Inscricao: VESTIBULAR UNESP 2027 PRORROGA AS INSCRIÇÕES ATÉ 26 DE OUTUBRO PARA 5.
@@ -277,7 +285,7 @@ DESCRIPTION:VESTIBULAR UNESP 2027 PRORROGA AS INSCRIÇÕES ATÉ 26 DE OUTUBRO PA
 END:VEVENT
 BEGIN:VEVENT
 UID:c4b765fc95ae67f667f1@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271026
 DTEND;VALUE=DATE:20271027
 SUMMARY:[Notícias (Google News)] Inscricao: Unesp 2027 prorroga as inscrições até 26 de outubro - Quero Bolsa. Une
@@ -285,7 +293,7 @@ DESCRIPTION:Unesp 2027 prorroga as inscrições até 26 de outubro - Quero Bolsa
 END:VEVENT
 BEGIN:VEVENT
 UID:2afda5bf1e1a34ecc1bb@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271026
 DTEND;VALUE=DATE:20271027
 SUMMARY:[Notícias (Google News)] Inscricao: Vestibular Unesp 2027 prorroga inscrições até 26 de outubro - CNN Bras
@@ -293,7 +301,7 @@ DESCRIPTION:Vestibular Unesp 2027 prorroga inscrições até 26 de outubro - CNN
 END:VEVENT
 BEGIN:VEVENT
 UID:57dc6ecdcbc8a7bf49d9@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271027
 DTEND;VALUE=DATE:20281027
 SUMMARY:[Notícias (Google News)] Inscricao: Unesp prorroga as inscrições para Vestibular 2027 até 26 de outubro - 
@@ -301,7 +309,7 @@ DESCRIPTION:Unesp prorroga as inscrições para Vestibular 2027 até 26 de outub
 END:VEVENT
 BEGIN:VEVENT
 UID:ea4656755b40bc833ab4@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271027
 DTEND;VALUE=DATE:20281027
 SUMMARY:[Notícias (Google News)] Inscricao: Unesp prorroga inscrições do vestibular 2027 até 26 de outubro - Band.
@@ -309,7 +317,7 @@ DESCRIPTION:Unesp prorroga inscrições do vestibular 2027 até 26 de outubro - 
 END:VEVENT
 BEGIN:VEVENT
 UID:9be4c316879322af0f68@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271028
 DTEND;VALUE=DATE:20271029
 SUMMARY:[Notícias (Google News)] Inscricao: Prosel 2027: Uepa prorroga inscrições do vestibular até 28 de outubro 
@@ -317,7 +325,7 @@ DESCRIPTION:Prosel 2027: Uepa prorroga inscrições do vestibular até 28 de out
 END:VEVENT
 BEGIN:VEVENT
 UID:0b8d584945adf90505f8@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271028
 DTEND;VALUE=DATE:20271029
 SUMMARY:[Notícias (Google News)] Inscricao: Prosel Uepa 2027 prorroga inscrições até 28 de outubro\; veja como part
@@ -325,7 +333,7 @@ DESCRIPTION:Prosel Uepa 2027 prorroga inscrições até 28 de outubro\; veja com
 END:VEVENT
 BEGIN:VEVENT
 UID:350e2db44fb47c622dab@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271103
 DTEND;VALUE=DATE:20271104
 SUMMARY:[Notícias (Google News)] Inscricao: Inscrições para o Vestibulinho 2027 da Etec em Tambaú terminam em 3 de
@@ -333,7 +341,7 @@ DESCRIPTION:Inscrições para o Vestibulinho 2027 da Etec em Tambaú terminam em
 END:VEVENT
 BEGIN:VEVENT
 UID:81d75e381e253026330f@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271110
 DTEND;VALUE=DATE:20271111
 SUMMARY:[Notícias (Google News)] Inscricao: Vestibulinho Etec 2027: inscrições são prorrogadas até 10 de novembro 
@@ -341,7 +349,7 @@ DESCRIPTION:Vestibulinho Etec 2027: inscrições são prorrogadas até 10 de nov
 END:VEVENT
 BEGIN:VEVENT
 UID:e61e3997bee16e17a17c@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271116
 DTEND;VALUE=DATE:20271117
 SUMMARY:[Notícias (Google News)] Inscricao: Inscrições no Vestibular UFSM 2027 e no Processo Seletivo Seriado segu
@@ -349,7 +357,7 @@ DESCRIPTION:Inscrições no Vestibular UFSM 2027 e no Processo Seletivo Seriado 
 END:VEVENT
 BEGIN:VEVENT
 UID:e74e362e1a4ab2b31630@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271127
 DTEND;VALUE=DATE:20281111
 SUMMARY:[Notícias (Google News)] Inscricao: Etec prorroga inscrições do Vestibulinho 2027 até 10 de novembro - Ilh
@@ -357,7 +365,7 @@ DESCRIPTION:Etec prorroga inscrições do Vestibulinho 2027 até 10 de novembro 
 END:VEVENT
 BEGIN:VEVENT
 UID:86d3a61f8362e78b4cc9@agenda-vale
-DTSTAMP:20261104T164345Z
+DTSTAMP:20261105T170009Z
 DTSTART;VALUE=DATE:20271129
 DTEND;VALUE=DATE:20271130
 SUMMARY:[Notícias (Google News)] Prova: UERJ divulga edital do Exame Discursivo 2027\; prova será em 29 de nove
