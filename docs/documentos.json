@@ -1,5 +1,405 @@
 [
   {
+    "instituicao": "MEC - Notícias",
+    "tipo": "edital",
+    "titulo": "MEC lança edital para certificar entidades formadoras de Hip-Hop e educação e prevê apoio financeiro",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/mec-lanca-edital-para-certificar-entidades-formadoras-de-hip-hop-e-educacao-e-preve-apoio-financeiro",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Iguape",
+    "tipo": "edital",
+    "titulo": "RATIFICO EDITAL Nº 005/2026 – SMC EDITAL DE FOMENTO À CULTURA POLÍTICA NACIONAL ALDIR BLANC – PNAB CICLO 2 PDF 148,59 KB Baixar",
+    "url": "https://www.iguape.sp.gov.br/portal/download/arquivos/KK-Tww/",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Iguape",
+    "tipo": "link",
+    "titulo": "108 - CONVOCAÇÃO 2026 PROCESSO SELETIVO 01_2024 MOTORISTA 40H DIRETA PDF 265,21 KB Baixar",
+    "url": "https://www.iguape.sp.gov.br/portal/download/arquivos/CR-zAP/",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Iguape",
+    "tipo": "link",
+    "titulo": "107 - CONVOCAÇÃO 2026 PROCESSO SELETIVO 01_2024 AUXILIAR DE SERVIÇOS GERAIS 40H DESEMPATE PDF 261,35 KB Baixar",
+    "url": "https://www.iguape.sp.gov.br/portal/download/arquivos/sG-zAz/",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Iguape",
+    "tipo": "link",
+    "titulo": "106 - CONVOCAÇÃO 2026 PROCESSO SELETIVO 01_2024 AUXILIAR DE SERVIÇOS GERAIS 40H DIRETA PDF 250,53 KB Baixar",
+    "url": "https://www.iguape.sp.gov.br/portal/download/arquivos/qG-zAT/",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Iguape",
+    "tipo": "link",
+    "titulo": "105 - CONVOCAÇÃO 2026 PROCESSO SELETIVO 01_2024 SERVENTE 40H DIRETA PDF 249,37 KB Baixar",
+    "url": "https://www.iguape.sp.gov.br/portal/download/arquivos/KG-zAL/",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Iguape",
+    "tipo": "link",
+    "titulo": "104 - CONVOCAÇÃO 2026 PROCESSO SELETIVO 01_2024 SERVENTE 40H REMANESCENTE PDF 262,73 KB Baixar",
+    "url": "https://www.iguape.sp.gov.br/portal/download/arquivos/nK-zAj/",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Iguape",
+    "tipo": "link",
+    "titulo": "103 - CONVOCAÇÃO 2026 PROCESSO SELETIVO 01_2024 SERVENTE 40H REMANESCENTE PDF 262,42 KB Baixar",
+    "url": "https://www.iguape.sp.gov.br/portal/download/arquivos/Gn-zAo/",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Iguape",
+    "tipo": "link",
+    "titulo": "102 - CONVOCAÇÃO 2026 PROCESSO SELETIVO 01_2024 FINAL SERVENTE 40H DESEMPATE PDF 237,71 KB Baixar",
+    "url": "https://www.iguape.sp.gov.br/portal/download/arquivos/Rq-zA-/",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Iguape",
+    "tipo": "link",
+    "titulo": "102 - CONVOCAÇÃO 2026 PROCESSO SELETIVO 01_2024 DESEMPATE SERVENTE 40H DESEMPATE PDF 258,79 KB Baixar",
+    "url": "https://www.iguape.sp.gov.br/portal/download/arquivos/CG-zAx/",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Prefeitura de Pedro de Toledo",
+    "tipo": "link",
+    "titulo": "Saúde ODONTOMÓVEL – CRONOGRAMA DE ATENDIMENTO DE NOVEMBRO! A Prefeitura Municipal de Pedro de Toledo, por meio do Departamento Municipal de Saúde, informa o cronograma de atendimento do Odontomóvel pa",
+    "url": "https://www.pedrodetoledo.sp.gov.br/publicacoes/saude/odontom-vel-cronograma-de-atendimento-de-novembro",
+    "pub": "",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "EE Paulo Francisco de Assis, 10ª zona eleitoral: resultado da votação em Barra do Chapéu (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOaTk0SG14NXZISG03VjZMa0pQeE02aXdpZEx6em9PSVJMY3l0N1A3b29iLWZkRUxJNDBVay0xaEJKNlBaVExRYVh0MnQzVGR6Z1ZIOTNvaW1OY05BSXVxX3d4MWJqOWltSXo1SVkzZDZ3dFlCdERYLXZIRGZlWHR2ZFpRMXptT0MzazFjS0x3ZFFMVHlzWEVSRVZDVzlPbjh3UFB2LVd1OFpCQncxbWdlRGFwa0pLTXBQekZGZk1ZV3lTZVdMeUU3TzB0ZUhNRWRlTnVSMTRwYnl3NE9tYmhGOGdYWTNhU1dTLUtxSUxQMG11Vkxnc0ZSaUJzZS12S1JOcUtsQdIBkwJBVV95cUxQNjRWZU5HSmVUeUQ0SmQ4Yll4ek5ORGJQZ1M2cmlwa3FWMGJ0UVZzSEMtYUZEVi0zdGxubXlGWU9vLWVKVnpYaTgySHN6N3ZaTG1iVGtLbDJPQUVvdlNINkdtWFltZ01LN3NxV0xCZzZBUDFoczVIQWJWdjZsNzJDa0ZLVThDaTZhV2V2dnJ6TDJlaU5DLUJWUGlJeUtUZHNORUc5LTA2eVpsZER3MlFpbHloSWVtb2NZMFFMdHhKWVhfYWxFaEdOQVRTREQ2YnZOYWNOWWh2dzQtdm83RnNiaW16THJ3NGJTakp5VV9ESXMxV3BxQ2NTb0JkdDdCcVdmUEVNcHFTNGUySFVRZFFyN21oQQ?oc=5",
+    "pub": "Sun, 25 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Resultado das eleições 2026 em Barra do Turvo (SP): como foi a votação no 1º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbFFwVEN4VEx2T0JnV1R0OFZVZ0ZZTzJFTHZHYmRZN0FXVGFtMWI5WGV5RDMyVTNEbHBfU2tkQ3VDeGppbVJkUUkxQ29QWWE2TFI5TXdFTU1jRnFVMTJkUHptMmlLTVlJZ1RZTWlxa3RVR0FYMFJfWTVaYXhMUTFZWEhwSlZJLVRKcUxvbDFHRGo1NHo0VkF3cENveDF3NzdickJwMVpEWFdJQUNUU0E1QVBhWkxCbnk0cC0tem9INGhlVWVHbkdUbV92SlJieTUzaGMydHplVmgyZFdRblBMQUw2WjZPQm_SAfYBQVVfeXFMTnBCRmtHQm56dzRUaERXZ1RtNTNsd0N1eDdaSkphWnlWdFQ2bUY3RDNLejFNTWVrYzdDVVpkQ3NNV1lidmQxWjIzT09PZ0s2blh4NThnaVA3UHlNbEMya29CR2NUSFVSN2JMeUc3ajcycjk5eG9wWTFvMWpCeDlEaXgtT0N2X2JydTJCM20tVGlnU2ZyaFZ4a0N3RHBvSkRzdy1qVkZnN1NaUVdwQllqenZyMnJTcE55VXRPVjExam1KUUtTLThKelhuZHppTHItc29qT2RQbVg5MGc1U0pDc1VoenY4R2g3RWQ5SE1qeXhCYVBhQWVB?oc=5",
+    "pub": "Tue, 06 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "E.M. Deborah Silva Camargo, 36ª zona eleitoral: resultado da votação em Cananéia (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWUUtWEtsRm5sUjROejdSc09CVGtaNEJFeTduRHNaMTJLSXRLTVREaEpUSjQ2aVNnWHRoeFgtcFhoNVZYU1BqcWxOOEJ5VHV3a0xIcHYweUpoQ3RlSC1xY3hfVjE1ODd0X1FmWi1IbV9EcmM4NnhDV1lWTlgyWXUxakdZdndWbkVoVFEyUEdOY2lvcjUwNlJ3QWlEUVRsSHcxdjAwSVotdGxhSTB2SWZnN0cwbUgzRHN4Q0pmV1B0OVZ1NERwMWQwekJlZlRDQUZRdGlwTmlaeUhsZFYtWGxjWWlrTUxnRWNHMDJCZEo2R3c3RDNiSk1JedIBhwJBVV95cUxQaVZnX19kZVNyS1FhRWR4ZThRVVBBcTdGWHBWMzEwckwzY3VydnlPQ3lJUzdtXzFFVXdvbVZEVWZXZDh5LU9WUFN1ZEtxTHJURG5FV0JDbzVaNVNHdFFfTkJoREU0NWtQckNGQ1FLOWoyVHl0LUxDX1R6eWc0bTIyYkVyU2dnQ0xCdFJ2b1JHUzVIRUE3RHBzZ1RMU1B5SXYzYzJURHR0X2VkaVVMX1owNGQtSnBTQkV2QkYxaHBNbTdaRUN6OGxlQnlpYWtmejNUM0otWnZIQjlTY3MwS0IxakVTZF9DeUY3SWItUDhhSXJhSzZEdmRPekgxQ216bV9zTDNDRkFiOA?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Eldorado (SP): resultado do local de votação por zonas eleitorais no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbkJNWEZaTjdhS3BTYy1BLUNLUUtlcUphd0RqcDQwMDVvVUhhYlpFU21nSUlDaHBqdlBTN2ExY0VXNUFMWlZoeWVOQjF0b2sxeTRPTmxqQXBPTEVRMEFxWjJ3Z3JKYUJudjZiLW1sdU9hc3kwUmt4c1JEUDBWdWdUNGpiMU1aVkZXY2lkWkhrbHBaUWRrWE5MdEhpSmRxYnpJZHJLRlFsQnE3dGxSV09xQU1XQTlGTERTRnJBMFhzYTliM1Jrd2wtalczUFhUOEJST2Y3MnNQbDN5VTBVWDVGetIB7wFBVV95cUxNdmswbFRRT3JKVlM0ekJ0NHM5MlpqMzEzUjRZaXBRZ1A0ZDZaQmpxVW16cE5zY29fbzlnbGg4X1BCWU94Z2NlUWpTWG1TMHE3R0RsS2JpOGt4d1oxbVkyaGFTQ21ianR4Zm13VTYxaER3RlluZFdjcmpCUk5hMnhDODh1cmFwVDZ6by1JVTBoeGR3V09yTjdfYWhXT0MxNFNCMFFnX0FwclZFUWNLLUp5N0NYYXVkeS1BTUhHT003N1BGWnVrbEVqR1Y0RDZrMlJ4aXpMNU5FSlFEV3M4cWdCRnVncXd3NF9VSUh2MmlWOA?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Ilha Comprida (SP): resultado do local de votação por zonas eleitorais no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRHpuQlI5ZGl3STV0bkF2dnM0OUFlSUxlbnFxLUw2NEFDU2doMS1hMzcyV2E1b2p2ODdQeGJhMFItVEp4Rms5NUFIbmFTdHRQM0pCMGdZRmUxTzNQZ1ktWXVOWkRnWU13aVlnSnNRUDVnVW1aclV5T3VXdnlIa3ZTcXl6Snk1QjRZZC1fOE1JRWwwdEJ2anV5eWgtVGVFVF9qWHlJVzJZUEFRZ04yazdMZ05DVWgybGlGRmZyZExlT3pvMGRYMUdHUWMwRmxpZ2pYOXprbjlEWUxadjBUQTEwcll5Y0NDRDjSAfYBQVVfeXFMUFV3T0ZNdjlLTnF0OC1OX1NzYzdpXzBDTlpra2lFNDFpZndRb0ZDcXRsYkNIWWU4c1hzR3FxU2Y5Y3lOU0tEMzRIRi0yWHhIc1VuMW1DMElxTG0xUS1ZMTNZQUVYVHNmZWRKQ0ZyMTg0YTc4NnpmaGl4TU1CQjBHZXl3YWVhNEh5Y2tWd0JqVWdQZkVDSjdLWHVJTElhOFhhT0M4RjFUVEtQVXF6SUNscWVsV3cyNEFRcElEMEx3czY1WFlJMVZLX2FzQzFrVzJ1TDBRVFhLTG9xYlFwdXMyN3loNnZvcXZYY0V4VklIS1h0SS1jUGZn?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "E.M.E.I.E.F. Bairro Pedrinhas, 51ª zona eleitoral: resultado da votação em Ilha Comprida (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNmhYVGR2d1VxSmx2bzZVajNrXzk0Z2hoT2l6cmV4RXBfTW1VU3RHSTBJVGZ1ZnBWTkdNUy1Sb3VaX2N3S2pHWGtnQWUxOXdlcWZ3czdCdk9nWE15d3VxVGZ4ZGlmUGxBWTVDbEgzSTVyaHM4QkFZTXlnUE0zSWg2WEpNcEJuNGNqdGk5UEFYdExhdVBIUm1sc2QxSnhVcnZmRHdQQlhaQktycklsclpmc1Rwa1JWNEQ5R2NkdlVvOVN4ZzBhTmlXSmVGekJKM0czUEktS0Y3VWMzbkllMi1kY1l3b3E1XzN4Xy1DeXEzUkhSN1lWQ1YwVXJ4OExDdjhEN3lZ0gGSAkFVX3lxTE52bEdPZmNlNkNZdXFBbmRtLV9WU3p5MEs4aXJGRm0xcUUzTG55X014aHhDU0tpVXdISThxWWRtZVZjMUN4V2Y5eEMtWUdzTjlOX1ZRT0FyODV6VTJ1ek9nWlN3eEFtQ19JVVo0a3RfSTRPZEx0dnlENjNwSlQ4aU54X0VlMTY2V2Z6YVFPaW8xWkM0WElhdldTdWhxR01YbkRabW53S3B0YnZ5cXcyd0hBMlQyNG9tU1M1d2hLYUk5RW9nYUY3dFpkSFlNWG5ydFpRSEk5Y0ZZLVIwclNScUJIeUJpQmdOcG50ZHpBRTFMbmJGUE1FenVSU2hxTjJRbHNfWG1yejRINVRhNEZ0SlRkNlE?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Resultado das eleições 2026 em Iporanga (SP): como foi a votação no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLWlmY0FTYkl2UEFEcDl2OXpwcUNWUTBMTGZjUm5yMzlsblMxU2FwVWFNbldSZmRPZ2RqVWR0bXdBY2tWYjdlWFA0eTRKX0pWS0ltV2pkSjNueXc2Z29FLUt6LU56TXBOVks2bm5qR3J2UUxQWXBtWnBFR0Q5MTdMOFU1eE8wZzZ1OENValdiSmhSanljSmgwQVJiVUhyaTNPRWZTSUhSVWdremZxSnBnajhKYTExWVJuMkFWQllWZWZxQU10QWxkUVEwTUgzNFNQT0dwakxVTWwtR2NraEMw0gHuAUFVX3lxTE00WnVtcC03dTNiRTJfWHhMUk9nQmFEbmEyRHRWd2hOenhmQkhxa2VNQUhucGpNaXU5S3VFSEJIcnJHeE0taDFiQlpOb09Odl8ySFNPcmhQUnc4NV80LUVZOWl4aEM0R2NZemlpSDlFMUZlb2l5TFk3T24zUk5jZTJKNDFLbDNFZ1ZObF81cDhwbVBSR25LNFVKX1E5LVFnX2NLVmlEU2s3TFhvQkg2b3NVeG5uNXU2QjdJc1g2QVdmYVJMZW1QNTFuOXU4enctQmNXSnFlc2RSMmlqLXFuYUU0LXNBVnV4MzNLaGxRbFE?oc=5",
+    "pub": "Sun, 25 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "EE Profºelias Lages Magalhães, 10ª zona eleitoral: resultado da votação em Itaoca (SP) no 1º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPbk5vMGZuV2c2ZURfQmZTTXBUYmdkRDNEZVVhdlFodHJxY2ItSlpxa2s4VFlRNEF2VFlra1IwYVNOTzhhQXhYMkdtbVdtdTB5VlE2ck1najZqRHl2V293N1NTenZpU3RVb0l2M1VSeG5pODFGLXBUWkxCa3N5c1M5My1oejdmazEwcXVzRnJJVUI0UXdtS3Q5TzdGRXpERWh6NzFuQ2loR1JkNEZtR2dUemg1RlpVMGhidEt1LVhpdE02OUF0TTZCYkxEbWdVWGZ3NXZyMzlnWmFyQl9rTl9SZWxkamlGZDhSS3JMOVFSUnQ4RnRxSGRoR2VoYTRUNXZrZFJrYXRMWkk2aDZjX2YwTkNEY1RSZHl0MVhaaNIBqwJBVV95cUxOdnBvNGw1SEFHRkFvVF9mN1NMeXNwRk52Zng2VE50eXpWS0VqTUxRcS1XNTZWdUItUWVROVAxajFKWjZCTWUxN2xLQ0NrQTlHcEM5elI0QU9UT3BScW03RzVLUnl2aVNsNUczNk55R0N1WExiNE1SaUZLQmR6Zm5KU19KbXlYT3AzZmp4Z1BBdEl1UlVvaHpyOW03dlFBeXlQdHVnaDk5cXVkbE00VGdNaTI5WGhhZUY0ZzdHSktUVlNPcmZFZGFyU3NJNkFEWWJuRkpkN2JNcTgwdWtUekxGdVVsWWlvZnVvSHAxZTVmVVh5SDFXR3dRSk1GOFR1a08yRnBkNF9DeG9xVEhCdDlmeU1ZQ05YdGkwVXRzZ3FzLUlNTzB6bXlydU4wUQ?oc=5",
+    "pub": "Tue, 06 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "BAIRRO Cangume, 10ª zona eleitoral: resultado da votação em Itaoca (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQckxNOW9MQWdtS1B0cERXb09obEd4MXk5S1lFWG9zSWMtelBERkxRUDZxWEpTNTF3WHYxOUZtX2FJajdaRTk4RTByd1BjaDgtNy1hdEtTQUZIYzZncG9vR0lURnBmUWFyajJiTHBkVFlpRGpRWGgzQnktNmUzMU4xQ1VHUDRwMG5XODBaal9DWFJXc213TXgtaFpxdFpDcmlaMUtzOV9jSFF2RWU3dW1vSFMwYm9ZVi1Vc1BsVDlDREw1ZDA0MlFMalZHSzRPenBaRk5xZGllWFEzOTZBMGFGbGh6YzF6OHPSAfYBQVVfeXFMTVJob29wU1VnTXk5TDlGTHd0Vk9kR2ZLT0FCX3lMdGdmaEZLMEpXYU5WWnpQeXN4b0c5czhQaFROdFB0M3E2SWJjV1VZZnlLSVNtSEYwREdzMTBMN01rUDRhRkY0ZGlncW1RLVEySnRPRElDblgzNXAtanNDUmJyQ0tlanZ6OWpSUW5WSDFFMGdFSm1aZnNZTzJ4WG9jalBYZ1VCcFlXMTY2Vm91anBPR1JHd3R3TWVQcUE0SzR4ME5nVDVnVS12NThmMl9pdEJDcFRMNmk2OTZDaDZReElHS2RRTkM3NFhzWnhral9wSTFzOWdBWjln?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "E do Bairro Caraças, 10ª zona eleitoral: resultado da votação em Itaoca (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNVE1WFFQaDJmdWNwOGhfMHRIMlA1VWJCRTlIWklUTTY1bzJDSFlBTktRTEpucnlBOVBxRGlOdWdjcDZieE55N3VfbnJPSkdUMDdERHY1UzFrblhwbDNpcWFLeWx4QktYd3dNcTFhR0ZEU0dDS0l1S1FMemc0VHgyQUlja29NWEY3Z0QtTkJmYzQwbEFzYjUzek12RDdRUnhFOFFpVjNpMnV2c0hrcHNnNUJaaXJfWm50WUJ0UkFJcW9SVWpnZzh2ZTluVFBLVDZ3SjBRU0xyTEcxeWpzNHBkTlBid2x6YXFVQmdOSHBR0gH8AUFVX3lxTE9VaVdTdEtlMWNycGNfVXJDYndEeWhKdDNpSWhFTktZSzZ5REFfcXVnSnVUNzFxYUVGcy1BMnBHcjV5S2s0QUhSOEFDUnBmYTRyQng5a2VpV0s0UTM3M2Z1WFhNRXZtZm5DdkRlUlhzclk2d2dwR0QyUEd0RnRFUEpjb195d0hVc2MyZXdQSngwdndnM3NJa0xaUTFCeDFLdkQyX3ZLOG9Jc0tyTjVreFVSWFJxdnhGNjhKSHFvU1JtX21zbFNQMzg3R2lvR0MxZE5YTWhPT2MzOG9KelZDQnZ4dEVIbjRxQnlMMjBOdkNRTEt4aXNEYW81bG9maw?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Resultado das eleições 2026 em Itapirapuã Paulista (SP): como foi a votação no 1º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYXBpeWFCSnowUnAzQUdnNVRwdUFCTTB2QlhhNmhGSzA3N2M4T2pUR2NQRW5CMnlBOHB3ZzJqRHZqdDBCRHN0NDR1aDA3TnNCdnQ3V2F0YVFnME8xVFp3WXpkZXZZM3lVMHdZeFlTRHRZLUI3VUtJYzN4TDg0cFRWYVJMZXM0d2djY3pGTEhfYVhmaURXMlJSRzFWdzMzd0YxX0FKS2h1NndSeHRTaDRLZlhQRTc5dUd4V3hLNFhMemZfY2oxNS1TTlU2Ulc3Vm9FRm5uZDdXQnBFenJzSHdpY1FQQTN5dVg3QTdKSi1R0gH8AUFVX3lxTFBzeEdZVWdPZmE0V1d3blpHWWhhNG5ObmY0UWxOVEdiRV9mcGoxbHNKbWhvaXhwUnhwcFBPYTNkcTJKbnFqR29FcUhFR1lfUTIzSDBfeEc2N3pENG9zWFMtd2E4THctdVdCci1nNndWM2JWWkRjTUMxV0hONEphMEdVNGNRUTg1WWh6Y2Z5YXcwTXpucjJlUExUZnVQS2ZuendtV2k3V2hmejM2RDdoWGNILUp3dlRUYlZ2T01LTEJ0b20ybGNBRnBqQmdVMGRMTXZnOXcwNEQ1MHZLRHFwNEs2WnlfRnJFcjE1MHRWRkNjTTFYQmw5aHlDSEdBRw?oc=5",
+    "pub": "Tue, 06 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Itapirapuã Paulista (SP): resultado do local de votação por zonas eleitorais no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNTA1dHhGUF9HU29OUU5IdXNpSGJxMXJvR2JXX3NGdDFVcnVrc0Z5ZnhFaWFnak96QWNObGpFaUpWbkItLXpDaDlDVTJJODhQNWVTMktsRkRidDR0TXF1aUc1ZkJ2MFRsWE1hSERic0E2V1FsZHJsNGsyYm5tajh4R2pvWmIweVlSSUthOUZWdFNsdGZyLUpBOHkybHBFOWw5Rl9oZDQ4QTBUOEFNRnFhRTgzVDNtNWJXbENSS29FU1h2Ui15N0pJTTM3Rnp1QTd3WkhmNkpPMzZqaUVieEFoUnNzYVpHVjRfSFY0Rm93QdIB_gFBVV95cUxNSU5SRGhTZ01jZjhEOVlzdjl3Y2NzdEh0c3MyRmUwbWhyaEZtRF9MR2tUOEJBQVNiYkxlbExXdWx6MjBreTJjcHhWTUowY0YyM1YyRU5TZW1EcXlYdVB6a3FwXzduMV9JaDJMaVBuM0JfSVlOT3VEYk1ZQkt6UUNVNFBVcm5nRkczSHN5SGdRTFA3OXVIUFJuYlRKZW10c3Q3bXBGX3lzVXl3YThha182LWZEU1RaRDVtZmFSbmNZaDg5NllJSVN6TEdLV0t0RU83N0tXNEk5QW13UDRPSGJDWk04ZWh0c0Ezbl90aktIM1Z5Um1tbWVPZmRvTnU1UQ?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Ee. Professor Oswaldo Florêncio, 223ª zona eleitoral: resultado da votação em Juquiá (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMVp6NmR4eWN6dVhweFcweHpOaTlmVGtMWU5WYVYzc01VdjZQeEFlc0xnbFFaWjdxakhqX1dndHFlZHlCMFpTMTV2eEpvQUU4Umk0d1lyQTB5cG5PazVwN2QwTC1LWTI4Nk5tRUUwTC14RjFXc2oxdVNzNGtyZ3NvNlk4WmZfUGZySDVNZVVZdHFiOGRDQkZ6cTZ2S2lXXzByQmNENnVEOWFpUmdZQ2R2cnhVdlRlVGJ5ZVctQjlyMnFfbkJYakdqblo4M3RLbFVqbXBXTUJBaWo0U1h5TUQ0eWtMS0hMRERSNHN3NW1QMFlrc1d3V3laT1YwYWNSQdIBjAJBVV95cUxNQTlHX0drUmhqNGpHWng1YjBrZTVHZ01IbndtU0hUY1ZJczlXVGNUazFKUkZoNk5pQVoteDhhbTNZczVyV0loOExpRjM4NUQ2VnNxbDZkR0NjSUsyR0JDYWRHOWlnUjVNZ1RILUIzMjMycDJYWFNPaWdqWVg3WGVhbEVvbmdnYU5WOGpqeFluRkZzOFZpWFZlRC1rWmJHMV8wSVdLdXdGTkFVVUkyOUF0eDN5YXNKanJGRWk1UjlIclY2M2NSS2dSeXR2c1ZYUndhQVR1aTZvX0gxWXNzaVZYMG5XazNVWEE1cW52S3VWRlZEZXRmb1ZraGt6U0pmTmxGczY5a2xzYlk0LUQt?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Palmeirinha Bairro da - Ee, 201ª zona eleitoral: resultado da votação em Juquitiba (SP) no 1º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOVHlqRUZiRXBLX0VJNTFQZEIyRDdSblJoZ1FuUmFjWEJkZU9xbDloRGJzNjJXeUFDb2RJV1FqbUR6aU1DNExkNlA3ODJCdW5mR0dveXVBSjBHTzhoZUNvVkhkQURCX2JObWs3MGpqd1Nzc2YyVHlibWlIUW5pa0FTVGNONGhLTDFnaTQ1SVhCTnJIMnQwdF9WdjNKU2RQNjZTczZ6bEJFQWprNF9jMEpZdzJuTFZfRml4S3A2Tm5hYnZvM18tWGd3TWVyTF9YTDM5d1RyYnhXUlBkQTZMZzlUMzBITkdnekdEMzJFNmtGSXhqMDZNTWdzMXVzb051aS1WdjZsLXR4NmpPZFJ0eGJFeXlEbVdLdGFFWlJz0gGqAkFVX3lxTE00QzFHRFVRUlFMT3RrUUVrU1lqVTBycjI5OFFQQXpNSmJNVE02YTVVeC1jMVZQVzZkLWpUc2daQlJjTnJ0WkM0XzN1WFViVEtjRW81WWVZZmlvanpNTW84OFNTdnZlZDlOeUdDVVBXb1VBTm5jR1V0ZVByN3NBNkIySmZjN0tVUlpldVpPWFpTTE55Q0JGXzZMTVh5dmQ5RzRjRUdwZXBtRTI0TkQ5YTRLT0w2eVhrTGo4YnhpM0U3akZxZm5PRVZNay1CVzBVazhSaFNaRHZkUE1KSXZjdlY3OV9ZNG9oU1poY0FhMHhBSExja05ZYVRiN21fSW9jZjg2UHBsWUFlSmg0YmpMQnUtZGdUUVFfR3V3NUpIa1JHZDZWeFpGSGlmZWc?oc=5",
+    "pub": "Tue, 06 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "PEDRA Branca - Ee, 201ª zona eleitoral: resultado da votação em Juquitiba (SP) no 1º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMHplSHczQmhWYzdLRV9XNHdNcC1wN1d4dVFkUnU2Y25LSEhMV21kb1pQV2tUa0x4NmgwYjQwOUJpcmpjQkNGcFlzS05KWDdQY2FsbU56SHM5LVlxMWthNXUyMFNKZWtYQjd2LU0taFVBTlY2VDRKSUpkeDZVZktmajNTWFFSWU4yV25CYS15Qkk2cjhKUXNEd19PYjBOS2t3UnZOOVdJWGlfZnFMZnBjZm01TGxGVjdaRU5RSEpYZ2FWSUt4SUJWWU9ONGs5dm1oWThOQ3YwNDJLekZYVWhQSVlsRnpyTjhIMmluRFUzSXpVV0QxeUQ1ZWgzODZERTJjUXA0LWlCdkc4MnJLRFhR0gGeAkFVX3lxTE4wWjRzN1VMTUFFYWlxQ1JHMTlhY3Znc1d0WmVxSEtYdUs0Ymh6X3JNNmFHVHZ6TnlqRWk4UmdOUUFocVdLZWJkT283aWkySXh3SkZaZ2RxYlQzdHJCZm5PSVV2TUxKUXYtdlNmbkg5dmw4RkJOOWNKTFhySlllU1FWLXJFdldiTXFORGFJSnZIUDBaREhzT2NwYlBRMXcxMjhzeWczMTdLWXJkUFhsMGFhN0N1eHNCTUUzRm02VFM5WlhpYlpqaGE2RGVzNzVtb0Joa3ZycWFPMmtNcVM4dVM2ekNsSFJjWTZYTlphM25aMkFrYm5hUFZOblhHeVh3cXJGeF91V045NnhyMHAyd3RYZkRSUmNfUVluUlk1Ymc?oc=5",
+    "pub": "Tue, 06 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Palmeirinha Bairro da - Ee, 201ª zona eleitoral: resultado da votação em Juquitiba (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxONHJkYzg1MjM1aVVkYzNXLXZYcllwejE1RkdSb3dOWjdXZW94R1MxVDZ3c3V6ZXowcEZ5cWpnZFNhSm5Ba3VxZDhUU09xOVRibl9acGZhbUt6TjN5ZkNmdXM2QlI1cGhkaHdkNHZETTBlSjZJd1JaT25QQmFLbGNMUlVBNXVnRUdfQ3RROThqQ1pWZ2dpUGpmUDRqQnZzamdtRHpVWkFmOFE0Si0zNmhGa2I5cUlJdVhqTlNJa01zNEdaSHhKeGxMRThwUVdkem1sU0t1TjBvMU5QVk8zNjR5X0FfbGVrYXZyak9XQmtLMTRVU05veksyemZB0gGIAkFVX3lxTE9yREpOVG9QeXE2anhZTXVFMFh2YnVEbVRveVRZbWtoWkRfNExWc1c5UkstUVFWSjlGNDNpV0k2NzVqMXhOVElxamlRSkloLUlWeEpUbWhqLTJnb1VjMVJTSGlNZ2Mzd2hIQl8tNEI2ZnhGdDZFa0ZZcW5jalBib0tYNUItZWsySzkyb2s1OHQ5SGpYLVk3dXd6RzZHSFAxTC01a0gybklRTmRRWUZ1Z3pBLVp5S2xaaEtHcUVtZkpUcjVteUFENlprRkYwOEF1bEUtcVp3YjI5NDZ2c290RkFsNlRzN1N2Wkk2cS0tenVjZDRlS3h6M0VITURoTEx6Z0YzRXlnWUdIRQ?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Palmeiras Bairro das - Ee, 201ª zona eleitoral: resultado da votação em Juquitiba (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUHk5V0NISVotU3N5X1IxSWxUQWZicnR6a1pSVjFmWHc0UFNndi1hRThnR3FObDMtdlAtZEhDUnB1anpoamRrT2FkWWtKdHp5eGZHUkdWYVRfODQzOEJoYVp0OGZxcGRTeWdNSFR3UVpVcVZTckpoblRGQWxBVTdoVTVaNjVXblhib0U3aWphQklJQTlNTmNZX3l0ZlIxRkVJTHBPRVdZamY3N001UEtWdlVqOTg4X0RKTUYtSW4xamZJYWE3VWgwbV9iX3VWRU5MemNNWUdXblpRdC1Va0dLRXYtZ0tUVGt4TW5HSHZZZi0zRmVIT1NhUNIBhwJBVV95cUxQbWE5cjg2bzNjVkFPQnhtRVliNDVXc1AybXA1S0hPc2pVNGtLX3NkMWpQTUJydVRDczgzRnJJVlRWM01TVjZFVkNHZS1nbzlLZ2FUSV9neDN1OHVzcnJXSDdKenhLaE5yQlNZdFFVTWJtZXlVOEFlWlhnT3lXYlZFcnNNOHJ5c1NheXJ4LUtvRVRiWUdocEMyUkkwZEMzV0dNNTRVWG1WN0NCWnpqa2ZiTHF5N2w2SHJWRm00dmk5UkRQcWFMR2VTaHFXV29EWU16QXNCNXRsc2NQbzFfWTAxOGRJNTV6SnJDMS1WdktvYU91blk1YWdmQ0NjQ19hMXdlYUh6N2lwQQ?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "EE Bigua, 218ª zona eleitoral: resultado da votação em Miracatu (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZHk2ME1zSTgyZVFCcDJtOTJQM1ZVczJPMTNoZ0JGbEZhRVZIdG56dFNlTDdfdjlmbUJRdFJNdldNVWQydXU3Rkl4d0RReFRfMGFLZGNDcHdXc3BnRWpkd2lRdzh5Uml5elh4S0tXTEZmMk81NUREQ0d0d25xUU9QS2dKRjhlSjNET215c3hsa2FYbkZuMWE3OHlPNkV2SndhMTRWMC1nSmRteG9jV2pmMV9GUE1ORXVTd2c3bGx3OHU4OVBHVHVlQkZWaWFrV1ZCY20yamRjazJlV1BRc2EyTXFhMNIB8gFBVV95cUxNRFJlOTRCMXY5MkRyV25jbF96VWhsVzdQNlVqMmlqWTRIencwMFI4TmtEeDZpRElvc0RpZjhhSFkydWhTTVRRZklnRU8tWUxocjQzS2tpRzhNZ3lDRG1NbEJ3bWNLcTBBeGNUaGJSTnhWRmxMM1JCTVBGY1o0S2ZyUVFnSFBVZUxrX0JlQi1CMl9VQUZGdFJudFg4RXNoV3BiT3N4TURwOFFKZTB2eEtoeWZMcFFrVFJ3S01iOXF2THpMX3EwWnQySEZDcmRDNWF4NTJwczY5R0N1aVRycVplMzNHd1d4c28xOHhMYjk5Y1BEdw?oc=5",
+    "pub": "Sun, 25 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "EE Prof. Maria José Morais de Carvalho, 218ª zona eleitoral: resultado da votação em Miracatu (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQaU1EOG1tWEZhRXZmRjhnQVBnbkwzZngtNU45ZERZSzRNSEFTcjJiXy1nVFZMRzVXdnd4VVphU0swOUJXdXRGS3hrcEh0a2ZqYXNSVW9NNG9aR293Y01mTUlXTS1Vb2Q3bHNpS3h4QWluUkVHY2YwN3dPSE8wUDZlclV2aUZrNzJQTVpDTUZVNXlaalJNb3g1ZklqamItUXE5S0pPcDVKQmQxRU5xSEYzbU5zOXVGdGVFMmlVUURic2JKS0laZnI5NlNEV3Z5NnlweHBCRDdTVFdWaUVXcVRCQlpjQ1BJblZISmoycFBmZWVxMGpuZVVMakJBTHNGSl9sTS1YbXNBc0ZDZ9IBmAJBVV95cUxNRDlGTlNwX0VhUm5Bd3htajRLdDlVQjFFbGlGS2JWaXpFaHdyZGxPajZJeXF4Rlk5T2szZ001TEZyV0tnUkpnVUVpRE5HUVVBMGFMbkczb1NMY2pRTnl6dFlObnloaG9meVhoa1ZYY1JQV3JtWnVBUVVFdXNFbk1Melp3aGJrYk1fZnVORGRUSmNWenl4ek1zLUE4anl1OGVyOFJZUDdSMzRmblF6SC1aNy1iRGJidXp2TDd6Nkpsd3BrWHgwUmdGMDVabkVZb1djdE5peHkzUWRfdzlTVkp6YnJKT0I0OUNoMUJRb3p2cHQyWnNkYmwzV1JtLWEzWnFJT2hlbWZ4WWRDX29kMXFPZFhCUjZwTFdm?oc=5",
+    "pub": "Sun, 25 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Resultado das eleições 2026 em Pariquera-Açu (SP): como foi a votação no 1º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPOXdiYkNHM2o1TkNwclNKMENEa1FEanBfbTNBRmU3Q04tNVprNjZ2UXlKdFdfU0xnR0szbEVrdktSa1E1Y2JjazI2UlJNa2NiTEp1THh4U1pLdmtpSk5CZGR1RFJFMEUwUGxiLTljS2QzZEJ2NjMxYzdxM19STm02cDY4NWVic2k3QnF4RUo5NlBJNzItWS1aSC1NTEZYRTFOOGlHZVFBUVotTU1pMTd2NmYzRDd6Z1M5ZHhfY29jV3RPajl5eF9GYktCc3RuNVNFb1RoRDJROXduNHh2T2xiaDhWMllOUdIB9AFBVV95cUxOQXBwNDFucmxWamVCeTFUYWJ1NGJOZkVYS2ZVdkdPUzJTbjFTSnI5UmJNRktTT3plSDk2VnNGUzBfMWh1My1BeXpfVVdvdjMtZEM2WHpZQkpReV9wNnpvWDk0aTg3S2pfdnM1YTE2TnpEQ0FweDNLXzdob3ZRN2RrRnk3YzNmeHVrbmdjR3FmcVFoUkNON1pSQzNjZHNuVjRfN3RwQ0ZYSEcwM3V5UjhZT0t3Zy1LS0lsX0VkNEY5YWRESm1wWEQtdVdIQ2NaYXAyclphb0tpd29VMXVoV095SmI3SXZtMWRnS0tsempNWUtFR2l6?oc=5",
+    "pub": "Tue, 06 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Resultado das eleições 2026 em Pariquera-Açu (SP): como foi a votação no seu local de votação; consulte por zona eleitoral - G1",
+    "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNjQ5M1BwNFJaanY2YXd4dkFqdjI5emNZbEREQVc2aWI5WmRpeE5POXo3U1J3U2FMTW1RMnFwbmdYTDdmV3k4RFRsV3NvdHlUTWFrT1ZnTUxHeTZOdTJ1bS12cGRJaHlOZTltRk5jUWZSeEhPZEZkMy16VmdCOWEtMTkyempBVUMyNmVzTWtLZk1MMWpiaGt4XzN4RnBONHVxU1V2a2c0V0l0VHBtV0JCY29ZcS1iSGFOR3JEVXZHZjhIVjdIVGZiS3FCQjY5c19hOVlfMUkxblVwSksySXJtQzlxekw1dGVzU0ZQblhlcU1Scy16WWNRRF9XektiMmF6VFdCcDV4aXdTajl6THBENlVSUTNURnZqemhr0gGqAkFVX3lxTFBGSHBDc3FjWjllOEI1YUFtNW8zWHhVRFI2TDVOdFhHX1lvS3BudzlFOTZYODN1RVpIcDUweDNmTEdzcF82ZDVjOWEyTEhyUkFsY2RKQUNKOUttdDRVdWU1NlZoUnlTSFlpT2tiNXRtb2hNWWQ3YnEyOV9ScFhZNkpubEVvYzJneXdrWWlCWGxyN0FtYU9uM2hmNjBsOXdKaHkyLXB0T1lBdEExanBYQjctem9XbWhoZ3ljTFlnejFDZzlIOG5CeXZnaVdzQ2QxYXF6MGg3RUFVbzlnb3F3elNzcFR0MlZoUGRYRjZmM3R0T25Belh1cVhHWVBqYzQzcmVhRmVycUlNQmlfZDlPTktyaF9jYldVNmV2MUVvV003SmZjUEd3YWRBb2c?oc=5",
+    "pub": "Tue, 06 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "E. E. Professor José Vicente Bertoli, 228ª zona eleitoral: resultado da votação em Pariquera-Açu (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPdC0yNWxEeGEyNjh1TF9qdWF4MFhyZ2lyS010eWxPVGNmenNKZl96N2Y0b3VGRXRVZHhLUFFVTnFTOGRRZ3FvVThQUlE2MVdIaVZGQVRDX3QteG9jRFJaN3J1S0hZTjFFOC16YmN2cGdlVnlVQktSc0hHX09QeTVoWmdsQkpFVlVBZ3hnUGFUNUpFUkdoeXVZZ3g3NzlCU2NEZUFnR1hIcEJkWHZPLTA1aGl2Um9wYjJuODktdU80OUstSXZub0h1VUZTQWpWZEZZQmFWSWdNRUNXdGdTYm1FZG5JcG9DVHZaSGFKTXdXRWlCMkVSTVB6MVJYcVZKTEFSWkZ1NjlVY0diTU9V0gGbAkFVX3lxTFB6SDNVeUNYbFl4dEpZeTc4NFJDVkMwVW0wNnJZVWQ1d1lnLTNWT2RqdE94NEU5LVVSYWoyc1VfRHJqOHpqTHhndlZoNl9RbXN3S09ENGw0SGhUYU0xTW1uVXgzS2dTNV9hODZad3BkaE5rWTNOZktNQTl0UXR4a1FRWktoY2tCOUMtT2x4RVZQWkNMTGloWllNRWYzT3RTeFJvbng1RWozYWdwY0dZMEFraGNoaE1CRnhhTE5vRk8tNXRrY3Zlc3dvTW9RMmRicXA5UkgxUXBwOXJteFVXaG5SMGd6OTBDOURuek1YRWtoUnEtTnhVRUF5elBSNG95SnlZWVVJMlVsdmZyTTMxSThQNzJ1Q0JnOFM4RnM?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Resultado das eleições 2026 em Pedro de Toledo (SP): como foi a votação no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcmE2dlhxZFUwVy1kRExLVzdoekdHYlY2ZGJFdURndW5SQ19NVEc5SUtXNFpXOFBNdThvMk50ZXNxaDhBUzlNejZEUHBnVmQ1aVR2M1Z4andmQWhRejQwd3ZmRjM3bTRVaE05eVQzXzFOTGNIT1FiSDR5QnBQdXpyaXgtU2JsejFKRTVXTWc5enFwOV9BZnhsWFlKY2tjZTBQS3U1WGsxcm9xbUJ0Q3JTRU82UGVTaHhCSHkxOE5DRFRMN2lINENCMlA5cHl0eFRTOUh3M09VSWdyMHNRcnRaVElkWTdrTHo40gH3AUFVX3lxTE4zbWQtOVFGRzlMNTJwVjNjMlROd2ZrLUJ0Z2h4S3hqRUl3TkpzaVA3dWxiYjZOYklwMWItdEFBaks4ZUk5S2dsUGhab1IyN1YzbDhuZkoyR1FRUk95Q2NZT3FFMEFPVlVMVk11N0FVUUJkWW5lWWF6ODUxMEVoYzRDcEVpaDBndzVxSTZnTTNHMjlkU1FFbVY0em9TLWxyME4xNVlFNmNWcVhDT2hBcndmSHhfQXlCQWR2SW5xVUxHejEwVjVEUjk2a0xsdmFuYm1oSzJISGo4LUt1X2F0WnBWQkhhVW9FQlptYXV2NHFONzdteUZHaUE?oc=5",
+    "pub": "Sun, 25 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "EMEI Pedro de Toledo, 250ª zona eleitoral: resultado da votação em São Paulo (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQc2hXaEZaY0VmcU5jbmtGYUcxRkx2NUhuQWhpdjdaMUZrclpWQWhOYmhvUVFtQ3M3Q1dMV1VTM19RYVJ6VkMwNmh4YUtpTXJLekNpVS1ETDhZeE1TSllkMXZ3OUJPZHFSOTQxTHNSU2ttRGVBWEl6QUpWa1hkdVRmS20ySHdTUmFzcTV0VkV3TzVkZkswcDJUS2FQc01YOW5iclIyQjJmTXNQYjhqV0pXRFl1S09PREZhRWt5ZzludTAwWHh6MmhnUW51NkZIbjUwZWE3SnNkb2RTTzBRTUtfS0IwWk50Mjk2LTF4by1oZ2ttaXFt0gGDAkFVX3lxTE5JUklJSExKejRlRDBpa1NqZG8tWVkzVl9ZZm1iZGliUElfTm56dVZhN3JncTc0ZjAwQ0NucS1hck05Q3hlX2lkdzdSOVRMMTFJTXE3VjM2NERWZ2FmeWNYRy1qVW5mTUZKR004TTAwMkVDLUk0U2xURFRjc0hWQnNBOENPcVYtenJlTFdKaVFjNm11aVUtRnQwTnBYTmVLZnA0YW9ELVZOUVcwbkJZU2pFcnVDaE9reFZLa3hMMjduTnBVUlNmOEJIV29xZS1QYXJFRWxCLWhQcHNRQW45Z2VhOVdMdVZzbWVzYUlmMXQ0enlGV052UE1QLUVNeFVSTXFNLVE?oc=5",
+    "pub": "Sun, 25 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Em. Professor Dirceu Rovari, 295ª zona eleitoral: resultado da votação em Pedro de Toledo (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUjFpSElmMWg5WFhJRzJLSUoxTmxhd0E2dW10czZSZmJBY0pPMDZXLVpGa3gxNWtIazVhUHZ3ejZTMHVUNkJPNUhkZFNnc2NGNTgyUFdYaXhOOF9hMzE4MXdqekRRcnhUb0lSckhPZHhCLWhzSUR3WHVtWGVIYzAwM3N6N2tEamNUQWlQV1JLUURKYTBOOG5IVXh2TTdOUkhQNU1idGE1RzVPU2FKUWlsWUhkYkVydXVQc0VMRXhXc2FjamxpSXRsR2p4RVNqa21ZX1NWZTEwdy1FVERvWHdKazlzblgxZi0yU0V6dlNJRzFqemhmSXRPbXByNWtacV9JbXVqT9IBkwJBVV95cUxNZEhJcWVlSThjcmVLTE9NRHlrSHFSZmlONnl1VF9NZHZlQXhlbzlTOXp6aDc3bzAxbWxBVU1qZ2wxUHQzbXpiZUx2cURxSkt6aVdVbzBaWXlKUmNuRUlPMS1ZaldpNVlEWGY3eUVmRi1DcndQS3NtMHNBN1lGVnBOaVVxYUtubXBycU9JVmQzN3VSQUhoSVE3RzdEWDY2ZXNXX1ZNUFZLRUN3RkppNWtNUVhtdUpHSEF0RngzYi1iMTFjbUhDaERpSVBjcWVOcVBCU3IyRER5SzltbTc3MDRrZElDSTlUOTQzVWRxMnlsWHZyMm40T3dkMWRnNDNlU0VHb1k2N3dWMHBkcWd3dkE5cDZJOA?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "EMEF Marechal Cordeiro de Farias, 172ª zona eleitoral: resultado da votação em Sete Barras (SP) no 1º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxONDUzOWNpWHdEVUgxME9lTTBiM0FJcS1Xcjk2eWtSTGFqQkUxU0NlNmlZX0hPZWFVTTkycWlieks5bUxKMXdOckc3QjZnd19xNDY2UWROM0F5STZXT05mbGdXNndmTk42dVNyYXBoa0lkNHlxeDNQZGZ2VnRCVWtmSTZKWVduQV8zcTlSRlh6RS1NRDRBUXh4Wlhua1Q2Sk5RZzZGQndZb2FiMmkwbDQ1eS0xSUo4bVVCV1AzLTM3OVBkMFdmWGRkSF9zcnY1XzgwZkFkQzJPcjJNNEJpTVhfdU1LOEFrUGl5dHY0bUdUa2JXSkItQ0txX3FRbHF6YmFnN1dsaTNmbW5rcV9xWFl5SDhuX1lyMkFXQ242UFAxN3NCNzhfUE9mSdIBtwJBVV95cUxQRzN0eUxsSW4xTXdvbll1bzVxS3VFd2hoSWNNQnhBSU1XVGhvV2plREg3OFNlRXRFRlUxNXhZb0dpTjR6MEtIeTdhQ2ZCUExWeDVDNnhDcWJsMldsNlNMUEY1T0lpc2RUb0dPSmxnWjdENlBjckdVeWdtcmNmYW9vM0FzNEZkdkZmeFhEWDRzZ2FUSFN4cllaQjdyN1hzWFNEeXBLVWFqWG9DakNBZHQwdWlpbWI5dFZKODhzT0ppbkRxekNlRmM5WndxUWlBVjVCMXBQekJaWExaSV9nOEpWV1hkY0N3bUpIdFJ3RzhQeXZHV0QyaHdmTHdHeGRDV3pUNy03Z055a3pHeHRiaFhFRmk5VjdEeGtvV1Bic1RCVzNWcnB6SC0zd1YyN1dHU3NWM1dvejJhaw?oc=5",
+    "pub": "Tue, 06 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "EMEF Marechal Cordeiro de Farias, 172ª zona eleitoral: resultado da votação em Sete Barras (SP) no 2º turno - G1",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQTDRLQVhDUXlaSHNfTnZsWUJjVkxvek5aeFVtZFpNNG9KWFoxSFZBTldzQ0I1Y3hfMXpqdHd0dUFSU3FpR1gyX1I2d0J4NmU4X2NJT1IwckFRQ1lUOXlEQVJXcmF2MjU0QWlBQUVWUWlZa1BOUFduT2ZPZTd6cDlCRXJjNzAwVTU1T3dkaE5JekJyRFYzV181azBWRHFsRUVrdEFNQnVlSjI3bkdycmVhN21hQk1HMV9FeWxSQmZXS3lBR0hzRzc0eUVlNzEybUNkbzluMWxSOVVPYnB4eTc2bmZwdHdSWXY5NWxTLVRnbk9fWXpmY0J1MGtoMkVma3RiWlpGZUhod9IBlgJBVV95cUxQbHY3TG5pV0p0UVcyYmlLby1fZXhPSDhfTWtZV014RkFIUDNkaHlfUVpnbEV4Wkx3LV9lOVRhUTVPSVlETFd2Y0RwSGpUMnVkZGFKR2lpSWcwckVXdFY1aGlvdDdWeEJfNVJ2VTNlWXdEZ09YNUtHcVdjQ1A2LWg2MFFMdzh2VWdLRkFlQzhjYkN6SGY2am13V1lsLXAzZks1QzdDSG9HMng1ZFlWLVZOXzZvSUl4QkxPSTFYNHdiTnl4OTlQRldHOFB2dlNyY1V0dVg0TkZ3OXl0NHNTWW5NT3lhb2JkZ3BGSnp4Y1NRUXVqYmRJN09XdEduVHY2NC0wV1JtNDVBWTFvbW8zVm16WVR4U1dtQQ?oc=5",
+    "pub": "Mon, 26 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Vestibular Unesp 2027 abre inscrições nesta sexta-feira - Band",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2ZtYkQxMUlyX3oxSG42RnBuWVNwUDBYblRPSGFSNFVUMUVJSXRJeHRCNkpnZVAtN2t3OTZaR3lWZFY2bHEyZkNwOGQzNFVYRXhMa3dDZk54SEFPQXNweXh2SW90dEFGWmxZVHFjWUdxZkpxUWlHWFg1clVKRDNubXVoTm50eUJsblpweVVYQ3VXUQ?oc=5",
+    "pub": "Thu, 03 Sep 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Unesp prorroga inscrições para vestibular com 5.850 vagas; veja novo prazo e como participar - Espaço do Povo",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaU40eGltczZuLUZsTzJERm1md0VJTElLNDFoRUtBbWV4YmhJX3JaSExJdV9oM3lrTzRiZnBPcExWazRrM0dYS3VZTmNFWW43MGRWaFNxQXp5NEotbmFmNTZnZDVVRzh3Zng0S0xJX2xWT1Nzblpyclk3VnBTZDNyT29YTUJhUXpsMzM2SVF2UzRsVlNDdXJsak52S1dfdTFHLUZGSzd6ejh0VG9SaXZXMFFvdmRqTlF3QUxheg?oc=5",
+    "pub": "Tue, 20 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Medicina registra maior concorrência no vestibular 2027.1 da Urca, com 63 candidatos por vaga - O POVO",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMXBxRHNxbkM0OWNiS1puaUtTNlgzWnpvVU81YVQycTAzcUl0T2NZT2pBelBIS2lPbDYzYVBrXzdXcExWNkwzQmJyOTFwQ0xXMXFKdGxZM1MxMlkyVVlDQnJfWk9BVE9zV0ZWZUpEOFlXTE8zVnY0T05Od3ZQbWRjRFFQX1BEWjhFTUZlLXhJWlpFQXAzZ3BucXZQZGRvcHBkNVNOM1dKd01CT2s5dDJxTmZHbnlnclgzTmRPWEcxdkFnZlpuUk52OXBKR0hWdDItNjB0YndSU3JfVjUtU2RqTV9rbw?oc=5",
+    "pub": "Tue, 03 Nov 2026 18:58:36 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Provão Paulista começa em uma semana com quase 16 mil vagas em universidades públicas de SP - agenciasp.sp.gov.br",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd083RW90THZnYjljNGtXQk53ZDJqWGl3UE5HSjBkbUE1LUJoZjNrYkc4X0M1WXRPOHhTRzRvVjlScENRQjdkcHdXQllzMVhLWVpCNTVoSDdfLTF2Rk1ydlNoNzZYR2k2SkVDVWpkSy1YLWtKeDY4aktxR0czUC1GaXMzTXVzR1VjaUZLakU0QUd6cDVEOVZ2SWlsX19HQ29RT2V5c1FCSXhwQ3hhS1ZNcGpvU012S2xkZEh3TW1n?oc=5",
+    "pub": "Wed, 28 Oct 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Inscrições para vestibular da Fatec São Sebastião são prorrogadas até 16 de novembro - Nova Imprensa",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT3RlQ2EzRzdGVm91TkhjZUNVeGg0OU9VVFpUUXc1aHBhMG9WQVZNTGUzNktOaUN5cE55NTl5OWRuUUpIT0tta2J0RGdGV3VwdElPdG9ETUlCcW5KUklGa2s3ZW5wS2RmV3o1dkw4LXpLUmI5NDNOTVhXbDVUQ01OTFdXbmx6ZXlGRzlTempGYmF5bUlzZEtCYy1LQWh0XzRJa2Y0SHlFM0hSWmQ1V0ZYSzl1VGJ6WHVFcUQzY29Fcw?oc=5",
+    "pub": "Thu, 05 Nov 2026 19:03:04 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Inscrições para Vestibular das Fatecs de Cotia e região são prorrogadas - Jornal Cotia Agora",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaktfUlhGTFZyQVJmbFNDZElDOWdFUXRDVEdpRnBjNF9Wa3pMdHFxTjVHZUszTi1tcElOZnEzTlVMQ3c0QWZJTEE1bWlXSVpwbzZQdVN5V0ZpdVdYb3VvUEtMUmF2WjZHU3huVWRDYXpyMzItR2VXakczQUlXaFNjcUZQamxnbGtMLXUwT0lBTzlxUGVKcHJrd0JYdktyX1dOU3c5Wng1VQ?oc=5",
+    "pub": "Thu, 05 Nov 2026 07:58:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Vestibular das Fatecs tem inscrições prorrogadas para 2027 - Jornal Cidade",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYkVfZGFuSWtkQWFkRjNzN2pVcl83Zk5FZ1NOMV92WjJaN2lFY3M2MzB5ZnlYOEtZRnpPT0xiSWp5eWM1ekNwaDMxeFM2cDZxMnFCNXRqNzBIZFJrYzBTRjZvTU5MblM2T2p0aFJEdmlUdVJLcndZNTM3TDFwSVhFT3NFRjRhSlpkRHlCV2V5cUw2Q0EtMTNKdmxucTJ6OUXSAaQBQVVfeXFMUEhacVRVNy1OYlYybTNlaXc1Yi01aENNMlBnZ3JPZGRtOGVlS2hMQi0zUW9oOU05LWx4NGRNVEJoOWdvbzhNZjdrWHNoZXViLXY0QmRoak9Fd0NNQUVCLTJvYVEyNk1Kam5oMlBod2JjR1M5a2w3MUg3MWY4UGVwQ2htQ0M3X1ZkN2dVM1laUmRpVEJNMHlYX1lUWnZNVE5nZmkweFU?oc=5",
+    "pub": "Thu, 05 Nov 2026 16:30:41 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Centro Paula Souza prorroga inscrições para o Vestibular das Fatecs até 16 de novembro - agenciasp.sp.gov.br",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBld0taQlAwQnRfVWVxa2hFNnlnR29oYmJSNWJSaFJLREg0TzdtV2lFY0NrNXM4cnM0d28zcm45N3NQSkVUNVp4RGY5WkhWWVV3U0RaLTFqem43cW0wNFZRWkgtb1NkTHZNSExaRGFyamo?oc=5",
+    "pub": "Wed, 04 Nov 2026 11:53:20 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Fatec Mogi Mirim prorroga inscrições do vestibular até 16 de novembro - Portal da Cidade - Mogi Mirim / SP",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeXdjSVQ4RXh0Z0JiREtvQ3RXVWF0TEI1ZFB1cUVuMFpvUS1sTVZJWFZObkc2aGhNVUxyUFgyeUkxVjB5Q3pVZVY5aUJuc0VCS1FEUFVhQUpFTVI5dW9xRExnbHRtbUJmWGFYRDhRSTlZMmpuYmQ0eFRNY0tPbm1DUml0Ri1EN3dMZnlna1pCNWRzM2JNaXZtQTNQVUl4Wm9UOWJPUXdaZ3FQcGxrUU4wWlpmLUgtemlVZWVfdHJMaHpEQWJscUpqNw?oc=5",
+    "pub": "Wed, 04 Nov 2026 13:51:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Ufopa lança edital do Processo Seletivo Regular 2027 com mais de 2 mil vagas - Universidade Federal do Oeste do Pará (UFOPA)",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSTBJV2lKSjFJQnhjamJ3T0VSYXhmbmJ4RDR5d2lKcnRPOFVSUFZnRGNyajJQOU5DWU1UMkRrcDY5T0FwNUxxSFJweHBHSkVSUE5BejhrcGx1TF9DZ002UHpkZnRjSUVhREJMaEt0SlFycHdoNVZ1SHhLbUpRVHBmNXYxRDhoTF9XQVYwalZ0bnVFZUVnRlQyZmkzRWVQRXZQRFkwMGlsSUl3bVBSZXlPdWhiV2RXLWZFbWJMS0Uyck02Wi1P?oc=5",
+    "pub": "Wed, 23 Sep 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "UFRGS divulga mudanças e datas do Vestibular 2027 - Quero Bolsa",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX0pHM1NId2NTZk96ekdFeFBqclJ5dFU0VS1ERkZ3N0NKQVVWMjBySGdVbUNKZUJEYm1YR0Z2bTl0Nm9rcWJyWnJyMDdPN1dreGVjeFVHOGE3VGFmbEU5M19tQlgwd0FyNFhhZVVmaEpBZjVYZlRoMDdyUkV6d1RkZWpJSE96aW5xRzlJ?oc=5",
+    "pub": "Mon, 24 Aug 2026 07:00:00 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
+    "instituicao": "Notícias (Google News)",
+    "tipo": "noticia",
+    "titulo": "Nota de corte do Enem 2026: quanto preciso para passar no Sisu e Prouni? - Exame",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWmJMVzZGdjhWWkZyOXY4TTNlLXplZDVCb0VmTndEcG5zZFBHbjBWNDBTRWRzTllVZUdaN3ZOSUJWUW5qeDZtVWJkUzE1bW9FaTZrNllZT1pFXzFtbG5sS0duMnI5WmNOSi1LT25QR0IwajNNNGxwMFFMTHBic0hXWWJUdDlQZHFMVC15dzZuZEpybU9BNlk0bG0xMU4?oc=5",
+    "pub": "Wed, 04 Nov 2026 17:18:35 GMT",
+    "primeira_vez": "2026-11-06T16:28:35"
+  },
+  {
     "instituicao": "Prefeitura de Iguape",
     "tipo": "edital",
     "titulo": "RATIFICO EDITAL Nº 005/2026 – SMC EDITAL DE FOMENTO À CULTURA POLÍTICA NACIONAL ALDIR BLANC – PNAB CICLO 2 PDF 148,59 KB Baixar",
