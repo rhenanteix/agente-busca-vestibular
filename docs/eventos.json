@@ -1,18 +1,6 @@
 [
   {
     "escopo": "nacional",
-    "instituicao": "INEP - ENEM",
-    "tipo": "prova",
-    "titulo": "ENEM 2026 - 1º dia de provas",
-    "inicio": "2026-11-08",
-    "fim": "2026-11-08",
-    "url": "https://www.gov.br/inep",
-    "verificado": 1,
-    "obs": "Portões fecham 13h (Brasília); provas 13h30",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
     "instituicao": "MEC - Notícias",
     "tipo": "prova",
     "titulo": "Com uma rotina recheada, composta por estudo regular, aulas de língua estrangeira e reforço em cursinho popular, Akira vai participar do exame como treineira. As provas serão aplicadas nos dias 8 e 15 de novembro",
@@ -30,18 +18,6 @@
     "titulo": "Cartão de Confirmação de Inscrição está disponível na Página do Participante. Para acessá-lo, é preciso usar o login único da plataforma Gov.br. As provas serão realizadas nos dias 8 e 15 de novembro",
     "inicio": "2026-11-08",
     "fim": "2026-11-15",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "edital",
-    "titulo": "Prazo do edital Ciclo de Saberes termina em 8 de novembro",
-    "inicio": "2026-11-08",
-    "fim": "2026-11-08",
     "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
     "verificado": 0,
     "obs": "",
@@ -94,6 +70,18 @@
     "verificado": 0,
     "obs": "",
     "cidade": "Vale do Ribeira"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "MEC - Notícias",
+    "tipo": "prova",
+    "titulo": "Iniciativa oferece descontos de até 50% para itens comuns utilizados por candidatos para a prova, como bebidas, lanches, papelaria e cuidados pessoais. Pedidos exclusivos podem ser feitos entre 13 e 15 de novembro",
+    "inicio": "2026-11-13",
+    "fim": "2026-11-15",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
   },
   {
     "escopo": "nacional",
