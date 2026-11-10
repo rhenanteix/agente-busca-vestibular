@@ -290,6 +290,18 @@
   {
     "escopo": "nacional",
     "instituicao": "MEC - Notícias",
+    "tipo": "prova",
+    "titulo": "Participantes dos cursos de bacharelado e superiores de tecnologia podem consultar as informações no Sistema Enade. As provas serão aplicadas em 29 de novembro e concluintes devem preencher o Questionário do Estudante.",
+    "inicio": "2026-11-29",
+    "fim": "2026-11-29",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "MEC - Notícias",
     "tipo": "inscricao",
     "titulo": "O O Ministério da Educação (MEC), em parceria com a Universidade Federal de Alagoas (Ufal), abriu, nesta quarta-feira, 28 de outubro, uma chamada pública para o envio de trabalhos ao Seminário Acadêmico do Programa Pé-de",
     "inicio": "2026-12-03",
