@@ -36,42 +36,6 @@
     "cidade": "Todo o Brasil"
   },
   {
-    "escopo": "regional",
-    "instituicao": "Notícias (Google News)",
-    "tipo": "inscricao",
-    "titulo": "Vestibulinho da Etec de Praia Grande tem inscrições prorrogadas até 10 de novembro - Prefeitura de Praia Grande. Vestibulinho da Etec de Praia Grande tem inscrições prorrogadas até 10 de novembro Prefeitura de Praia Gran",
-    "inicio": "2026-11-10",
-    "fim": "2026-11-10",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRkdOOENSek9waEN0UHdYLVl3WkVFYUJTeV8za2NJLS1SeWw3NGRpWloySjFhNWxuZ0xKelFXMHItWVJaN0RXTGoyaUNYMGdoUnpSMWU4dzhza0NBc1h2dVU1cVVJMF9oUEpBRHF5d0dsekhlbVR1SVd1VlV5dGxkbzMxTGpsZ1BZY3dLV01jLU94X1M1ekp1ZEtfc2ViUDdpV3ZzMjh2VmF0OTF6a1poN0Nna0dNSDlZYThzUWFyMnNMbEU?oc=5",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Vale do Ribeira"
-  },
-  {
-    "escopo": "regional",
-    "instituicao": "Notícias (Google News)",
-    "tipo": "inscricao",
-    "titulo": "Inscrições para vestibulinho da ETEC vão até o dia 10 de novembro. - G1. Inscrições para vestibulinho da ETEC vão até o dia 10 de novembro. G1",
-    "inicio": "2026-11-10",
-    "fim": "2026-11-10",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNWnJRdEFKcGxyeDhicGlJa09WcHNLU1pFRFFPaWo4U3lVRnAzVGpBdDN5SkI0ZGlNQWVuY1NsMmZ4VEdnYXNqTFoyRTBnM0ZwQ3VqNWtzd0cyVXh5blV3ZWhSSmFLdnJ3eHkxY0s0OVdxSlpPU2lSeFpxaFNZajBPaUozVkdPYUpwTmRsMklTNW9maGNvN0Jaa041bVNlOFRtbEVvWFRxQlBzeWwzemd1TTBEQ3dzRGlyOF9JR3BmVnhoMTZlNHJBbmtLamNrV042cU5LU0JKOHQ1NWxQNXczSUxwWFdpbjZqZlHSAfgBQVVfeXFMTnhGVGp6MzlhaGJVSlF4VnNGbUtWTkNIcWlVbGZnNXFQZ2pWZzlDQ1ByanBsMGk1LTRGVUpISXgxYk5USmNUSTVlbW00Vkk3QzQ1QjNSUDVvWmROSEtEcTkycFJyVC1UOFZrbkRNYnVlM0NNcUFiWjlwU0prNUE0MnVGYWoxVlVfbjlwazJyWW8zS0xQY25idFJnTTh3eGZXNVNlTXV0c25xOTUyOXF5Q2RXVmp4SENGOThaWksxVldxTFM0MVkxVW1URERHOGR3OUp0eTFmSkJ4RXA2UTA3NzByUVB5QWxwVTJzdlVlYjRNY1MtN1hXWkw?oc=5",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Vale do Ribeira"
-  },
-  {
-    "escopo": "regional",
-    "instituicao": "Notícias (Google News)",
-    "tipo": "inscricao",
-    "titulo": "Vestibulinho das Etecs prorroga inscrições até 10 de novembro - www.imparcial.com.br. Vestibulinho das Etecs prorroga inscrições até 10 de novembro www.imparcial.com.br",
-    "inicio": "2026-11-10",
-    "fim": "2026-11-10",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUlZvZWlXUDVBTDBIRVZLLWhIeERQVm5JSlBWbEZydC1YaVZfb210RmlmN2lEOUxFTkhDUmJ1amZEQnFsVERnZXlyT1dHNXNTZFFBbXdobVdHM1VkYXJaZ3lDUlFUOEVlYnVxbUkzNkhsbk9kZE1fZ2hKWFp1M0tFT0JSQ19fZEZIanBzSDgtR3JKTXZNSjNBR3RLTU5OSWEzdlFmZ19lRzc?oc=5",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Vale do Ribeira"
-  },
-  {
     "escopo": "nacional",
     "instituicao": "MEC - Notícias",
     "tipo": "prova",
@@ -238,6 +202,18 @@
     "verificado": 0,
     "obs": "",
     "cidade": "Vale do Ribeira"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "MEC - Notícias",
+    "tipo": "inscricao",
+    "titulo": "As inscrições para a certificação de entidades formadoras do Programa Escola Nacional de Hip-Hop H2E , do Ministério da Educação (MEC), começam nesta terça-feira, 10 de novembro. O prazo segue até 21 de novembro, até as ",
+    "inicio": "2026-11-21",
+    "fim": "2026-11-21",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/mec-abre-inscricoes-para-certificacao-de-entidades-de-hip-hop",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
   },
   {
     "escopo": "regional",
@@ -643,6 +619,18 @@
     "inicio": "2027-11-29",
     "fim": "2027-11-29",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVzQ0QzJQQ0ZiRll1akM4NUNQVHBxRERQN2Jkb1A5S2xMVjdJQ2xGdnBkVE5LSjIyckU2N2I3ZlJTSWU0eDU3NHlNSU83cE4wWFNoSlhGelZTMWVfSExndzlZcTZraTJBTm5IMURuUTRkQ3dROEFxMWItamFzNDhoWG9xekFYYWZhSmFqZXRvUFk2dVRlQkHSAZYBQVVfeXFMTlc0NEMyUENGYkZZdWpDODVDUFRwcUREUDdiZG9QOUtsTFY3SUNsRnZwZFROS0oyMnJFNjdiN2ZSU0llNHg1NzR5TUlPN3BOMFhTaEpYRnpWUzFlX0hMZ3c5WXE2a2kyQU5uSDFEblE0ZEN3UThBcTFiLWphczQ4aFhvcXpBWGFmYUphamV0b1BZNnVUZUJB?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "prova",
+    "titulo": "Sisu 2027: instituições têm até 11 de dezembro para aderir - Blog do Vestibular. Sisu 2027: instituições têm até 11 de dezembro para aderir Blog do Vestibular",
+    "inicio": "2027-12-11",
+    "fim": "2027-12-11",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16Nlk5ckNrcFVRRlpkdHM4YTViQlF4cDlFc2xYYWxSRi0wUzJjb3VrYTZyZF85UlFqUTZKMzFIZ1NXTDdIOHhKdDY5bXYyZlNURVl6Um92SjJ5ODJySi0yN2FYdndNZmhaa0xKY29nZ3duUy1CNFVxUlJpVGc?oc=5",
     "verificado": 0,
     "obs": "",
     "cidade": "Todo o Brasil"
