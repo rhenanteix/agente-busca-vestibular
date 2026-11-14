@@ -206,6 +206,18 @@
   {
     "escopo": "nacional",
     "instituicao": "MEC - Notícias",
+    "tipo": "resultado",
+    "titulo": "Em uma iniciativa conjunta que aproxima as políticas de educação e cultura, o Ministério da Educação (MEC) e o Ministério da Cultura (MinC) divulgam o resultado preliminar da Fase de Habilitação do Programa Ciclo de Sabe",
+    "inicio": "2026-11-17",
+    "fim": "2026-11-17",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/resultado-preliminar-da-fase-de-habilitacao-do-ciclo-de-saberes",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "MEC - Notícias",
     "tipo": "inscricao",
     "titulo": "As inscrições para a certificação de entidades formadoras do Programa Escola Nacional de Hip-Hop H2E , do Ministério da Educação (MEC), começam nesta terça-feira, 10 de novembro. O prazo segue até 21 de novembro, até as ",
     "inicio": "2026-11-21",
