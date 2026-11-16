@@ -2,71 +2,11 @@
   {
     "escopo": "nacional",
     "instituicao": "MEC - Notícias",
-    "tipo": "prova",
-    "titulo": "Com uma rotina recheada, composta por estudo regular, aulas de língua estrangeira e reforço em cursinho popular, Akira vai participar do exame como treineira. As provas serão aplicadas nos dias 8 e 15 de novembro",
-    "inicio": "2026-11-08",
-    "fim": "2026-11-15",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "inscricao",
-    "titulo": "Cartão de Confirmação de Inscrição está disponível na Página do Participante. Para acessá-lo, é preciso usar o login único da plataforma Gov.br. As provas serão realizadas nos dias 8 e 15 de novembro",
-    "inicio": "2026-11-08",
-    "fim": "2026-11-15",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
     "tipo": "inscricao",
     "titulo": "Inscrição – As inscrições serão gratuitas e estarão abertas de 10 a 21 de novembro de 2026, até as 23h59 do último dia, no horário de Brasília. O procedimento deverá ser realizado por meio da plataforma H2E Certifica , c",
     "inicio": "2026-11-10",
     "fim": "2026-11-21",
     "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/mec-lanca-edital-para-certificar-entidades-formadoras-de-hip-hop-e-educacao-e-preve-apoio-financeiro",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "prova",
-    "titulo": "Iniciativa oferece descontos de até 50% para itens comuns utilizados por candidatos para a prova, como bebidas, lanches, papelaria e cuidados pessoais. Pedidos exclusivos podem ser feitos entre 13 e 15 de novembro",
-    "inicio": "2026-11-13",
-    "fim": "2026-11-15",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "INEP - ENEM",
-    "tipo": "prova",
-    "titulo": "ENEM 2026 - 2º dia de provas",
-    "inicio": "2026-11-15",
-    "fim": "2026-11-15",
-    "url": "https://www.gov.br/inep",
-    "verificado": 1,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "inscricao",
-    "titulo": "O O Ministério da Educação (MEC), em parceria com a Universidade Federal de Alagoas (Ufal), abriu, nesta quarta-feira, 28 de outubro, uma chamada pública para o envio de trabalhos ao Seminário Acadêmico do Programa Pé-de",
-    "inicio": "2026-11-15",
-    "fim": "2026-11-15",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/estao-abertas-as-inscricoes-para-seminario-do-pe-de-meia",
     "verificado": 0,
     "obs": "",
     "cidade": "Todo o Brasil"
@@ -91,6 +31,18 @@
     "inicio": "2026-11-16",
     "fim": "2026-11-16",
     "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/fies-remanescente-inscricoes-terminam-na-terca-feira-3-11",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "MEC - Notícias",
+    "tipo": "prova",
+    "titulo": "Reaplicação – Os participantes que tiveram a realização das provas prejudicada por problemas logísticos ou doenças infectocontagiosas previstas no edital poderão solicitar a reaplicação do Enem 2026 entre os dias 16 e 20",
+    "inicio": "2026-11-16",
+    "fim": "2026-11-20",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/resultados-do-enem-serao-divulgados-em-18-de-janeiro",
     "verificado": 0,
     "obs": "",
     "cidade": "Todo o Brasil"
@@ -211,6 +163,18 @@
     "inicio": "2026-11-17",
     "fim": "2026-11-17",
     "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/resultado-preliminar-da-fase-de-habilitacao-do-ciclo-de-saberes",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "MEC - Notícias",
+    "tipo": "resultado",
+    "titulo": "O O s resultados do Exame Nacional do Ensino Médio (Enem) 2026 serão divulgados no dia 18 de janeiro de 2027. A partir da nota no exame, também são projetadas quase 1,5 milhão de oportunidades de ingresso na educação sup",
+    "inicio": "2026-11-18",
+    "fim": "2026-11-18",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/resultados-do-enem-serao-divulgados-em-18-de-janeiro",
     "verificado": 0,
     "obs": "",
     "cidade": "Todo o Brasil"
@@ -349,6 +313,18 @@
   },
   {
     "escopo": "nacional",
+    "instituicao": "MEC - Notícias",
+    "tipo": "prova",
+    "titulo": "As provas serão reaplicadas nos dias 15 e 16 de dezembro. Cada participante realizará apenas a prova correspondente ao dia em que sua participação foi inviabilizada, mediante análise e aprovação da solicitação pelo insti",
+    "inicio": "2026-12-15",
+    "fim": "2026-12-16",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/resultados-do-enem-serao-divulgados-em-18-de-janeiro",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
     "instituicao": "Notícias (Google News)",
     "tipo": "inscricao",
     "titulo": "Impa Tech abre 150 vagas de graduação gratuita em 3 de novembro; inscrição vai até 23 de dezembro - soubrasilia.com. Impa Tech abre 150 vagas de graduação gratuita em 3 de novembro; inscrição vai até 23 de dezembro soubr",
@@ -393,6 +369,18 @@
     "url": "https://acessounico.mec.gov.br/sisu",
     "verificado": 0,
     "obs": "PREVISÃO: MEC ainda não publicou o cronograma. ProUni 2027.1 e Fies 2027.1 vêm em seguida, sem datas",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "MEC - Notícias",
+    "tipo": "resultado",
+    "titulo": "O O s resultados do Exame Nacional do Ensino Médio (Enem) 2026 serão divulgados no dia 18 de janeiro de 2027. A partir da nota no exame, também são projetadas quase 1,5 milhão de oportunidades de ingresso na educação sup",
+    "inicio": "2027-01-18",
+    "fim": "2027-01-18",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/resultados-do-enem-serao-divulgados-em-18-de-janeiro",
+    "verificado": 0,
+    "obs": "",
     "cidade": "Todo o Brasil"
   },
   {
@@ -622,6 +610,30 @@
     "verificado": 0,
     "obs": "",
     "cidade": "Vale do Ribeira"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "isencao",
+    "titulo": "Unesp Enem 2027: prazo para pedir isenção da taxa vai até 22 de novembro - Blog do Vestibular. Unesp Enem 2027: prazo para pedir isenção da taxa vai até 22 de novembro Blog do Vestibular",
+    "inicio": "2027-11-22",
+    "fim": "2027-11-22",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBael9JZERiRjUtSWMwQUo2VWx3em9LQzdwS1JKYlZGcnphVXFIY2JSdzNsSzRCM1BEQWtjU05MNWFvSUZ1cHk1ZWpjbnZkYmxMZzAxNG1sRVB4STVmbWVmSHI5YUFYMkRCNTBPd0wtaFBXUXNiZW5n?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Unesp Enem 2027: inscrições de 23 de novembro a 14 de janeiro - Portal Brasil. Unesp Enem 2027: inscrições de 23 de novembro a 14 de janeiro Portal Brasil",
+    "inicio": "2027-11-23",
+    "fim": "2028-01-14",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMM1BFbzFTVER6bjkzNmFUMkowTW1LdUdKS0tkVkpKQmNidUhTbE8ta1o0UWpQN3BabV84NmVabzY2MFc4NzlCUVF4S0xDWHpZOVg4a1dNWHdvLU5kYWdkdVhKRWPSAWRBVV95cUxQTDNQRW8xU1REem45MzZhVDJKME1tS3VHSktLZFZKSkJjYnVIU2xPLWtaNFFqUDdwWm1fODZlWm82NjBXODc5QlFReEtMQ1h6WTlYOGtXTVh3by1OZGFnZHVYSkVj?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
   },
   {
     "escopo": "regional",
