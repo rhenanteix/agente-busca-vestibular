@@ -38,42 +38,6 @@
   {
     "escopo": "nacional",
     "instituicao": "MEC - Notícias",
-    "tipo": "inscricao",
-    "titulo": "Lista dos classificados está disponível na página do Fies, no Portal Acesso Único. Os pré-selecionados têm entre 17 e 18 de novembro para comprovar as informações da inscrição nas instituições de ensino",
-    "inicio": "2026-11-17",
-    "fim": "2026-11-18",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "resultado",
-    "titulo": "O O s resultados do Exame Nacional do Ensino Médio (Enem) 2026 serão divulgados no dia 18 de janeiro de 2027. A partir da nota no exame, também são projetadas quase 1,5 milhão de oportunidades de ingresso na educação sup",
-    "inicio": "2026-11-18",
-    "fim": "2026-11-18",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/resultados-do-enem-serao-divulgados-em-18-de-janeiro",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "inscricao",
-    "titulo": "T T ermina, nesta quarta-feira, 18 de novembro, o prazo para que os candidatos pré-selecionados na edição do Fundo de Financiamento Estudantil (Fies) para vagas remanescentes do segundo semestre de 2026 comprovem as info",
-    "inicio": "2026-11-18",
-    "fim": "2026-11-18",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/fies-remanescente-ultimo-dia-para-comprovar-informacoes-da-inscricao",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
     "tipo": "prova",
     "titulo": "Material está disponível no portal do Inep, organizado por dia de aplicação e pela cor dos Cadernos. Prazo para solicitar a reaplicação vai até 20 de novembro, por meio da Página do Participante",
     "inicio": "2026-11-20",
@@ -586,6 +550,18 @@
     "verificado": 0,
     "obs": "",
     "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "regional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Inscrições no Vestibular UFSM 2027 e no Processo Seletivo Seriado foram prorrogadas para o dia 23 de novembro - UFSM – Universidade Federal de Santa Maria. Inscrições no Vestibular UFSM 2027 e no Processo Seletivo Seriad",
+    "inicio": "2027-11-23",
+    "fim": "2027-11-23",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZXB6cHZPUkJLMkR0RnFmQ2k3ZWdjQl85c1BsTVFhcGpBbllxc2Z5Qk1Oc2thazQ4ZzZwSWVNRXBPWXNSM2N3Z3BlVVhXbWhVd2hmTmhhdk4yX0c3bWxxUEtpZnRuTkd4YWhETnZKYlNCM1VnZFdqa0d6SnNRQkpOb3YzWnB5aG8wNWgzQm1QSV9KN0hhNzVJcW1Pc05SUzNIZ2U4MzNwcUZfSUEwZjI4WjFtd3JJbTVDaG9lSTJCY0NPd2JaRzJibHFobnJveGtwNkt3RXJBN2RzZkhtY3o2eTZPMG7SAeoBQVVfeXFMUFUzdTM3VFExT1A5dERMZUtKVi1BTkM4QW9ZWGZXbk9MQ1NqVFFNUGhEZlZpUWo2WjV2TkJ2X0M5Y3A0dWtleGxJU082S0dSYnFYd1Noc29WRmEyc2d3NUwyeTZJdXFKZy00bG9pRmUtdVRDMUxSdGo1Nmc5UG5zcGVEVGxyNzM4b1hjZU9rV1I4SVV4eEg5Q1pPZUFuQWhZWHRFbEUxTUJtQS1GbF8xc1pLaDNXbWVXdTJUZ1hNcnNWc0pGQ3lFTVE1WEd2VnhCczVLSHpRYThTb1c2LVExcGZjLXhtNWxkdUpR?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Vale do Ribeira"
   },
   {
     "escopo": "regional",
