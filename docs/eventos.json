@@ -133,6 +133,18 @@
   },
   {
     "escopo": "nacional",
+    "instituicao": "MEC - Notícias",
+    "tipo": "inscricao",
+    "titulo": "Repasse de R$ 200 vai para estudantes que tiveram ao menos 80% de frequência no mês de setembro ou acumulada ao longo do período e também engloba alunos da EJA. Pagamentos ocorrem até 30 de novembro",
+    "inicio": "2026-11-30",
+    "fim": "2026-11-30",
+    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
     "instituicao": "Notícias (Google News)",
     "tipo": "resultado",
     "titulo": "Enem 2026: Inep tem até 30 de novembro para divulgar o gabarito oficial das provas - Diário do Pará. Enem 2026: Inep tem até 30 de novembro para divulgar o gabarito oficial das provas Diário do Pará",
@@ -199,6 +211,18 @@
     "inicio": "2026-12-14",
     "fim": "2026-12-14",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeUYxM3FRVFBMc0x1SFYtYktueTg4M2kyTGd6UjNlZzlEaGg1OW80Y3dJUElaekdHMUNiMnd0NnE2aEVqR3lMQWhmaUZUZ21CSVVDcUItY1l6RTlURDVWRFl5ZkxPWDdJRTRJTUZwNGFaWHY1SGR5bFJPLTZLNFdUaS04M2JzQkc4MnAwZnFHZw?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "resultado",
+    "titulo": "Encceja 2026 fixa prova em 23 de agosto e resultado em 14 de dezembro - Mix Vale. Encceja 2026 fixa prova em 23 de agosto e resultado em 14 de dezembro Mix Vale",
+    "inicio": "2026-12-14",
+    "fim": "2026-12-14",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFlsQTU4aFpnSVJ0Ty03X3JMeDdLNEE2aEVGa3RzU2oxN3N3ZVhWeG5oYUpkcDJsSXQyeDJldG5JdmhXSnhzWUMtR2wyc1EtS0hrbk1WLVdFV0daczMxQ2dNNXFxNzRyaDVwR0duakxobmh1YWg1RzBvR0E5SnV1ekY2bXY0a2VoQkpTN19uek9YV2pqbTNxWDNlXzdsMXNLN0Vrakx3Znp5M0tn?oc=5",
     "verificado": 0,
     "obs": "",
     "cidade": "Todo o Brasil"
@@ -574,6 +598,18 @@
     "verificado": 0,
     "obs": "",
     "cidade": "Vale do Ribeira"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "IFPA estende inscrições do PSU 2027 até 30 de novembro com 1.655 vagas de graduação - Diário do Pará. IFPA estende inscrições do PSU 2027 até 30 de novembro com 1.655 vagas de graduação Diário do Pará",
+    "inicio": "2027-11-27",
+    "fim": "2027-11-30",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN1pDdmlURGhJaThVMEdNQWc3Ml8tc2dHOGoxMk53dU9xeTdka1RDZWdOV1ZMSUFMNVRJenFNNldVNDV1YmVfbkJhMEZ1bEt0UGxfa3NIRmpTWWZhSlNQcEFlaUFSVEV4OUNGWWxMWmh1ek9kYXhHd0FwOEwxbGxvbUNMejZTa3lUd0ZObE90MjJQdEVOU2Z6Vw?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
   },
   {
     "escopo": "nacional",
