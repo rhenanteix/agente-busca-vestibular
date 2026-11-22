@@ -1,18 +1,6 @@
 [
   {
     "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "inscricao",
-    "titulo": "Inscrição – As inscrições serão gratuitas e estarão abertas de 10 a 21 de novembro de 2026, até as 23h59 do último dia, no horário de Brasília. O procedimento deverá ser realizado por meio da plataforma H2E Certifica , c",
-    "inicio": "2026-11-10",
-    "fim": "2026-11-21",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/mec-lanca-edital-para-certificar-entidades-formadoras-de-hip-hop-e-educacao-e-preve-apoio-financeiro",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
     "instituicao": "INEP - ENEM",
     "tipo": "resultado",
     "titulo": "ENEM 2026 - Gabaritos (até o 10º dia útil após 15/11)",
@@ -21,18 +9,6 @@
     "url": "https://www.gov.br/inep",
     "verificado": 0,
     "obs": "PREVISÃO calculada: ~30/11 considerando o feriado de 20/11",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
-    "tipo": "inscricao",
-    "titulo": "As inscrições para a certificação de entidades formadoras do Programa Escola Nacional de Hip-Hop H2E , do Ministério da Educação (MEC), começam nesta terça-feira, 10 de novembro. O prazo segue até 21 de novembro, até as ",
-    "inicio": "2026-11-21",
-    "fim": "2026-11-21",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/mec-abre-inscricoes-para-certificacao-de-entidades-de-hip-hop",
-    "verificado": 0,
-    "obs": "",
     "cidade": "Todo o Brasil"
   },
   {
