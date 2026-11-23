@@ -12,30 +12,6 @@
     "cidade": "Todo o Brasil"
   },
   {
-    "escopo": "regional",
-    "instituicao": "IFSP",
-    "tipo": "prova",
-    "titulo": "IFSP 2027 (técnicos integrados, Campus Registro) - Prova",
-    "inicio": "2026-11-22",
-    "fim": "2026-11-22",
-    "url": "https://www.ifsp.edu.br",
-    "verificado": 1,
-    "obs": "",
-    "cidade": "Registro"
-  },
-  {
-    "escopo": "regional",
-    "instituicao": "Unesp / Vunesp",
-    "tipo": "prova",
-    "titulo": "Vestibular Unesp 2027 (inclui Câmpus Registro) - 1ª fase",
-    "inicio": "2026-11-22",
-    "fim": "2026-11-22",
-    "url": "https://www.vunesp.com.br",
-    "verificado": 1,
-    "obs": "Mesma data da prova do IFSP",
-    "cidade": "Registro"
-  },
-  {
     "escopo": "nacional",
     "instituicao": "MEC - Notícias",
     "tipo": "inscricao",

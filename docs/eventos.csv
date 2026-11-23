@@ -1,7 +1,5 @@
 ﻿escopo,instituicao,tipo,titulo,inicio,fim,url,verificado,obs,cidade
 nacional,INEP - ENEM,resultado,ENEM 2026 - Gabaritos (até o 10º dia útil após 15/11),2026-11-16,2026-11-30,https://www.gov.br/inep,0,PREVISÃO calculada: ~30/11 considerando o feriado de 20/11,Todo o Brasil
-regional,IFSP,prova,"IFSP 2027 (técnicos integrados, Campus Registro) - Prova",2026-11-22,2026-11-22,https://www.ifsp.edu.br,1,,Registro
-regional,Unesp / Vunesp,prova,Vestibular Unesp 2027 (inclui Câmpus Registro) - 1ª fase,2026-11-22,2026-11-22,https://www.vunesp.com.br,1,Mesma data da prova do IFSP,Registro
 nacional,MEC - Notícias,inscricao,Prorrogadas até 23 de novembro inscrições para o Selo de Alfabetização,2026-11-23,2026-11-23,https://www.gov.br/mec/pt-br/assuntos/noticias,0,,Todo o Brasil
 nacional,MEC - Notícias,resultado,Convocação da lista de espera: 25 a 30 de novembro,2026-11-25,2026-11-30,https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/fies-remanescente-inscricoes-terminam-na-terca-feira-3-11,0,,Todo o Brasil
 nacional,MEC - Notícias,edital,"Participantes menores de 18 anos deverão enviar autorização do responsável legal, conforme modelo do edital, até 27 de novembro, para seminariopedemeia@gmail.com .",2026-11-27,2026-11-27,https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/estao-abertas-as-inscricoes-para-seminario-do-pe-de-meia,0,,Todo o Brasil
