@@ -14,18 +14,6 @@
   {
     "escopo": "nacional",
     "instituicao": "MEC - Notícias",
-    "tipo": "inscricao",
-    "titulo": "Prorrogadas até 23 de novembro inscrições para o Selo de Alfabetização",
-    "inicio": "2026-11-23",
-    "fim": "2026-11-23",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
     "tipo": "resultado",
     "titulo": "Convocação da lista de espera: 25 a 30 de novembro",
     "inicio": "2026-11-25",
@@ -214,6 +202,18 @@
     "verificado": 0,
     "obs": "PREVISÃO: MEC ainda não publicou o cronograma. ProUni 2027.1 e Fies 2027.1 vêm em seguida, sem datas",
     "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "regional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "prova",
+    "titulo": "Concurso de Sete Barras (SP): 42 vagas, salários de até R$ 6.449 e prova em 10/01/2027 - Meu Preparatório. Concurso de Sete Barras (SP): 42 vagas, salários de até R$ 6.449 e prova em 10/01/2027 Meu Preparatório",
+    "inicio": "2027-01-10",
+    "fim": "2027-01-10",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMndZckU0YUJMTlFIUHNTckJ3MUtsQ0pqV045eFRtT1VNVkJ1MWptajZ0Y1o2ZkRhWW1JaG1xSjBzZFdMc09EVlZpUVgtMFBZMlZEd3RfWTNtNmE0dVlQMl9HMWw2d0pVdVZVOWJiMFJHNkgzemNIdU5fMDVoOTVjOEhBaWdPWGd0QjBwam91c1lwZkp1TFJFTTlSRE85bEpuTE15UFdJV0NDSlYySGdVY05ZTk1fTkNKdk8wcHJwOWhIQWc3NFdab3VOVzNlOEM5d0hCaFlGVXIybmVaRGtZVFloczQ0UQ?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Sete Barras"
   },
   {
     "escopo": "nacional",
@@ -482,6 +482,18 @@
   {
     "escopo": "nacional",
     "instituicao": "Notícias (Google News)",
+    "tipo": "prova",
+    "titulo": "UFGD 2027: número de acertos da prova objetiva será divulgado hoje (19) no dia 19 de novembro - Portal Brasil. UFGD 2027: número de acertos da prova objetiva será divulgado hoje (19) no dia 19 de novembro Portal Brasil",
+    "inicio": "2027-11-19",
+    "fim": "2027-11-19",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdjRTelNRcWY1ZzhzQ2V2R2Z1Z0kyWDZKRDdFMHJTaVhOS0VaNVYyTkpfVjRJYWpnQ3NsTGZ3ajR5QzdxQWh6ZDdaRmtKWWZzTG1zOHZIZFBwRlFrZmV5QUhqLTFkVEJMUmdxVzFxWE80eTJhRlprWFJxdnJrbDR0VFlmWVJadjhVcFdzWWJpQ0pLQmZNQndhQkdMQnBaVV8wSkI5ejY3aDhGWXZTUXF3WGU5ZFBLRzJYbzAw0gG7AUFVX3lxTFB2NFN6U1FxZjVnOHNDZXZHZnVnSTJYNkpEN0UwclNpWE5LRVo1VjJOSl9WNElhamdDc2xMZndqNHlDN3FBaHpkN1pGa0pZZnNMbXM4dkhkUHBGUWtmZXlBSGotMWRUQkxSZ3FXMXFYTzR5MmFGWmtYUnF2cmtsNHRUWWZZUlp2OFVwV3NZYmlDSktCZk1Cd2FCR0xCcFpVXzBKQjl6NjdoOEZZdlNRcXdYZTlkUEtHMlhvMDA?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
     "tipo": "isencao",
     "titulo": "Unesp Enem 2027: prazo para pedir isenção da taxa vai até 22 de novembro - Blog do Vestibular. Unesp Enem 2027: prazo para pedir isenção da taxa vai até 22 de novembro Blog do Vestibular",
     "inicio": "2027-11-22",
@@ -559,6 +571,18 @@
     "inicio": "2027-11-30",
     "fim": "2027-11-30",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWRyQWd4RjR5a25NMHVEaDRDQmhYMTAwOFlGZ0tjQ3E3dGUwTktGcUVmSjZxM2JMRi1kOUlyM0VtWFdMVFZyOEpPR2pTNmcxLXYyY0owOUZDMWsyQVhrU3hlVGN5NzBkcjlYemNrUWw5QXQ0S29oejhXeFBQZHFpbndmWFpMelnSAYcBQVVfeXFMTTVkckFneEY0eWtuTTB1RGg0Q0JoWDEwMDhZRmdLY0NxN3RlME5LRnFFZko2cTNiTEYtZDlJcjNFbVhXTFRWcjhKT0dqUzZnMS12MmNKMDlGQzFrMkFYa1N4ZVRjeTcwZHI5WHpja1FsOUF0NEtvaHo4V3hQUGRxaW53ZlhaTHpZ?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Acadepol 2027: inscrições até 30 de novembro; confira os requisitos - Portal Brasil. Acadepol 2027: inscrições até 30 de novembro; confira os requisitos Portal Brasil",
+    "inicio": "2027-11-30",
+    "fim": "2027-11-30",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYmZtdWhnNEMwSm5venNQLThKa2N1ZVdmR0JhRERxc1BYNmMwcFZhalpScDI1X0d4aEtfMnlyOXlFbEpGSzdLaTFwWUZiRVJGMlFkbDVDYzE1QmR6RGdmVGNQTzR5WFV5a1VhMjU4a1EwMUMzeGk0R3l2aEw5RGxnMHBJQmdWYW51LTBJc9IBkgFBVV95cUxOcjhEODl0cV9nYk1CZHJURE9GaWxZcWMtcC1Sdk5Dd3djckRfUFlkNm5URkk4aTk0R1VBelZac3JtTy11OTRBUkF5WEEwaUdVQWdxSjlfeGFOZXFXaFlpRFB3QVVZQkZUeVpYTGk2QXJxeXp6cElGQ2o5cUlZWERKWVlfZDZuTVVNampKUno2SWVaZw?oc=5",
     "verificado": 0,
     "obs": "",
     "cidade": "Todo o Brasil"
