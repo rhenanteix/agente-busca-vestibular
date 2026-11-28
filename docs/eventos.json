@@ -26,18 +26,6 @@
   {
     "escopo": "nacional",
     "instituicao": "MEC - Notícias",
-    "tipo": "edital",
-    "titulo": "Participantes menores de 18 anos deverão enviar autorização do responsável legal, conforme modelo do edital, até 27 de novembro, para seminariopedemeia@gmail.com .",
-    "inicio": "2026-11-27",
-    "fim": "2026-11-27",
-    "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/estao-abertas-as-inscricoes-para-seminario-do-pe-de-meia",
-    "verificado": 0,
-    "obs": "",
-    "cidade": "Todo o Brasil"
-  },
-  {
-    "escopo": "nacional",
-    "instituicao": "MEC - Notícias",
     "tipo": "prova",
     "titulo": "Participantes dos cursos de bacharelado e superiores de tecnologia podem consultar as informações no Sistema Enade. As provas serão aplicadas em 29 de novembro e concluintes devem preencher o Questionário do Estudante.",
     "inicio": "2026-11-29",
@@ -229,6 +217,18 @@
   },
   {
     "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Olimpíada de Português 2027: inscrições da OP começam em 18 de janeiro - Portal Brasil. Olimpíada de Português 2027: inscrições da OP começam em 18 de janeiro Portal Brasil",
+    "inicio": "2027-01-18",
+    "fim": "2027-01-18",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QdGJLTXRLUEtVNS1zOGhfUjFrMEctSTdLTXNSTXVPV1dkS1hZYkNnd0R1OVVvUFpZZUtENi1VcW1FanVsZFlpMWs0dlE4dTN6MllpZ2VCR0tNeHgyVk5UT3FMU3hmbjZzRDJnU0plQkRDaGtPeVHSAXtBVV95cUxPTWhhcXlPV3o0NFE5ZHU3dmc2ZVVaX2tvU3JVbC0xX1FYQTI3RzZ2ZHJ1RjROQmZMOFo2cHFlY091STlYaG1CdElCX0VFNHhLQTJldGh2OGdBNXhKOEZGVnRXa1YtbnpXZzRKMDZjdThPa0lDQmJZMy04S28?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
     "instituicao": "INEP - ENEM",
     "tipo": "inscricao",
     "titulo": "ENEM 2027 - Inscrições (início)",
@@ -264,6 +264,18 @@
     "cidade": "Todo o Brasil"
   },
   {
+    "escopo": "regional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "isencao",
+    "titulo": "Inscrições do PROSEL UEPA 2027 começam em 10 de setembro; veja taxa e isenção - Blog do Vestibular. Inscrições do PROSEL UEPA 2027 começam em 10 de setembro; veja taxa e isenção Blog do Vestibular",
+    "inicio": "2027-09-10",
+    "fim": "2027-09-10",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVG1DX2xnblNNbE9wb3kxTXd6RThzMGFTOUFRS3FuWC1vNmV2NlNRcXhReE9ZX0FFOXFPU0QzNjV6YzdnZHQxNXBhWFRtNFdjb2hFc1laeDBmMTdNdGpoRDdOdC1HVjBhX1diRVBPUWx6Sk94YjhVUjdRNGs2Y292Zw?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Vale do Ribeira"
+  },
+  {
     "escopo": "nacional",
     "instituicao": "Notícias (Google News)",
     "tipo": "inscricao",
@@ -271,6 +283,30 @@
     "inicio": "2027-09-15",
     "fim": "2027-09-15",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNHJkbEtNSzJFTW8tYzExUno0TzlVS0k0cFgwWGx0MEZydDBTczJTSXJkVzhMRERhMlYwdk40NG4wTHQzQlJ4MlpaWUVjLTNEOVpNbHU2bFBVVzQ0X042UWlVczZ5cUtpVVJvaFdjSkh2SGZSakNLaGY0aFl3X214dS1kdTVqVW5XcjN5bjVrU3NQVERSSGI2STdUbk54bVp5UmN0NUVDcnFIN0gydlpEcDBNOGg?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Vestibular UNEB 2027 tem inscrições prorrogadas até 12 de outubro; veja como participar - Blog do Vestibular. Vestibular UNEB 2027 tem inscrições prorrogadas até 12 de outubro; veja como participar Blog do Vestibular",
+    "inicio": "2027-10-12",
+    "fim": "2027-10-12",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVlFPeUtOZGR5NDFNczgwU1MzRzZXd1hranc0ZjZTYkw1OEw4UldaS01vY0RMeDdqd3pYSFpUa0pMSnZpby1hRG9xcm5uUkYzTHNmZ3NLbkhFMkF4LVEwU28tczFHWGZZYjhueDJiS2REa0x5TmF3N3V0M3ptNFdCQ1N2QXJ4NnBicUIwT0E4TkM5Tkxt?oc=5",
+    "verificado": 0,
+    "obs": "",
+    "cidade": "Todo o Brasil"
+  },
+  {
+    "escopo": "nacional",
+    "instituicao": "Notícias (Google News)",
+    "tipo": "inscricao",
+    "titulo": "Vestibular UEL 2027: cartão de inscrição sai até 13 de outubro e provas serão dias 18 e 19 - Blog do Vestibular. Vestibular UEL 2027: cartão de inscrição sai até 13 de outubro e provas serão dias 18 e 19 Blog do Vestibul",
+    "inicio": "2027-10-13",
+    "fim": "2027-10-13",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd19sUlRUaF9JQmV3S2FIZ0VrOEtFQVh5ZmNwRVVVWUFJN3RMUHQwTFFmd0hHUjdGQ0RqN2JjY1R5UU9VMVRnQXJLQVYtbFZpVzV2YktqZ3RNU2ozZ1JqMlRZbTFCZDFhSEJNWFVhTG1reEZCbmVXM3diYzBwbmQycGVlaENwbVIyTWwwTGVLeGRkUF9wRElhUko2dw?oc=5",
     "verificado": 0,
     "obs": "",
     "cidade": "Todo o Brasil"
